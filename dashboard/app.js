@@ -48,10 +48,11 @@ async function load() {
 // --- Stat cards ------------------------------------------------------------
 function renderStats() {
   const s = state.data.stats || {};
+  const verified = state.companies.filter((c) => c.verified_real).length;
   const cards = [
     { num: s.total ?? 0, lbl: "Companies discovered" },
     { num: s.ai_total ?? 0, lbl: "AI-related", accent: true },
-    { num: s.months ?? 0, lbl: "Months tracked" },
+    { num: verified, lbl: "Verified real" },
     { num: fmtPct(s.avg_score ?? 0), lbl: "Avg confidence" },
   ];
   $("stats").innerHTML = cards
@@ -274,6 +275,17 @@ function render() {
 
 function scoreClass(s) { return s >= 0.75 ? "hi" : s >= 0.5 ? "mid" : "lo"; }
 
+function verifiedBadge(c) {
+  if (!c.verified_real) return "";
+  const prov = (c.verification || []).join(" · ");
+  const edgarUrl = (c.raw && c.raw.edgar_url) || "";
+  const title = `Verified real — ${prov || "authoritative registry"}`;
+  if (edgarUrl) {
+    return `<a class="vbadge" href="${escapeHtml(edgarUrl)}" target="_blank" rel="noopener" title="${escapeHtml(title)}">✓ Verified</a>`;
+  }
+  return `<span class="vbadge" title="${escapeHtml(title)}">✓ Verified</span>`;
+}
+
 function cardHtml(c) {
   const edgarUrl = (c.raw && c.raw.edgar_url) || "";
   const link = c.website && c.website_verified ? c.website : edgarUrl;
@@ -292,7 +304,7 @@ function cardHtml(c) {
     <div class="card">
       <div class="card-top">
         <div>
-          <h3>${escapeHtml(c.name)}</h3>
+          <h3>${escapeHtml(c.name)} ${verifiedBadge(c)}</h3>
           <div class="sub">${escapeHtml(c.jurisdiction || "—")} · formed ${escapeHtml(c.formation_date || "?")} · ${escapeHtml(c.source)}</div>
         </div>
         <div class="score ${scoreClass(c.ai_score)}">${fmtPct(c.ai_score)}</div>
@@ -357,6 +369,25 @@ function competitiveHtml(comp) {
     </div>`;
 }
 
+function verificationHtml(c) {
+  const prov = c.verification || [];
+  const edgarUrl = (c.raw && c.raw.edgar_url) || "";
+  if (!prov.length && !edgarUrl) return "";
+  const items = prov.map((p) => `<li>${escapeHtml(p)}</li>`).join("");
+  const filing = edgarUrl
+    ? `<a class="memo-btn" href="${escapeHtml(edgarUrl)}" target="_blank" rel="noopener">View SEC filing (provenance) ↗</a>`
+    : "";
+  const status = c.verified_real
+    ? `<span class="vbadge">✓ Verified real</span>`
+    : `<span class="badge-gen">unverified</span>`;
+  return `
+    <div class="memo-sec">
+      <h4>Verification ${status}</h4>
+      ${items ? `<ul>${items}</ul>` : "<p>No authoritative signal found.</p>"}
+      ${filing}
+    </div>`;
+}
+
 function openMemo(id) {
   const c = state.companies.find((x) => x.id === id);
   if (!c) return;
@@ -386,6 +417,7 @@ function openMemo(id) {
     ${competitiveHtml(c.competitive)}
     ${m.reasoning ? `<div class="memo-sec"><h4>Reasoning</h4><p>${escapeHtml(m.reasoning)}</p></div>` : ""}
     ${risks ? `<div class="memo-sec"><h4>Key risks</h4><ul>${risks}</ul></div>` : ""}
+    ${verificationHtml(c)}
     ${c.website && c.website_verified ? `<div class="memo-sec"><a class="memo-btn" href="${escapeHtml(c.website)}" target="_blank" rel="noopener">Visit website ↗</a></div>` : ""}
   `;
   $("drawer").hidden = false;

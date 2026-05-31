@@ -29,10 +29,26 @@ from .base import Source
 
 EFTS_URL = "https://efts.sec.gov/LATEST/search-index"
 # SEC requires a User-Agent identifying the requester. Override via constructor.
-DEFAULT_UA = "AI-Incorporation-Scout/0.1 (contact: scout@example.com)"
+DEFAULT_UA = "AI-Incorporation-Scout/1.0 (contact: scout@example.com)"
+
+# US state code -> full name, for human-readable jurisdictions.
+STATE_NAMES = {
+    "DE": "Delaware", "CA": "California", "NY": "New York", "TX": "Texas",
+    "MA": "Massachusetts", "WA": "Washington", "FL": "Florida", "IL": "Illinois",
+    "CO": "Colorado", "NV": "Nevada", "NJ": "New Jersey", "PA": "Pennsylvania",
+    "GA": "Georgia", "VA": "Virginia", "NC": "North Carolina", "WY": "Wyoming",
+}
 
 
 class SecEdgarSource(Source):
+    """Live SEC EDGAR connector.
+
+    Form D filers are recently formed entities raising first private capital.
+    With `inc_state` set (e.g. "DE"), EDGAR's `locationType=incorporated` filter
+    returns only companies *incorporated in that state* — a legitimate, free,
+    official way to discover newly formed Delaware firms with a verifiable CIK.
+    """
+
     name = "sec_edgar"
 
     def __init__(
@@ -41,6 +57,7 @@ class SecEdgarSource(Source):
         forms: str = "D",
         days_back: int = 30,
         query: str = "",
+        inc_state: str = "",          # state of incorporation filter, e.g. "DE"
         request_delay: float = 0.2,
         **_: object,
     ) -> None:
@@ -48,6 +65,7 @@ class SecEdgarSource(Source):
         self.forms = forms
         self.days_back = days_back
         self.query = query  # optional full-text query to bias toward AI filings
+        self.inc_state = (inc_state or "").upper()
         self.request_delay = request_delay
 
     def _get(self, params: dict) -> dict:
@@ -71,6 +89,9 @@ class SecEdgarSource(Source):
                 "enddt": end.isoformat(),
                 "from": page_from,
             }
+            if self.inc_state:
+                params["locationCodes"] = self.inc_state
+                params["locationType"] = "incorporated"
             try:
                 data = self._get(params)
             except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
@@ -93,6 +114,13 @@ class SecEdgarSource(Source):
             time.sleep(self.request_delay)
 
     @staticmethod
+    def _jurisdiction(inc_states: list[str], biz_states: list[str]) -> str:
+        # Prefer state of incorporation; fall back to business address state.
+        code = (inc_states or biz_states or [""])[0]
+        full = STATE_NAMES.get(code, code)
+        return f"{full}, USA" if full else "USA"
+
+    @staticmethod
     def _hit_to_company(hit: dict) -> Company | None:
         src = hit.get("_source", {})
         names = src.get("display_names") or []
@@ -106,24 +134,34 @@ class SecEdgarSource(Source):
         file_date = src.get("file_date")  # proxy for formation/discovery
         accession = hit.get("_id", "")
         form = src.get("file_type") or "D"  # this is a string, e.g. "D" or "D/A"
-        states = src.get("biz_states") or src.get("inc_states") or []
+        inc_states = src.get("inc_states") or []
+        biz_states = src.get("biz_states") or []
+
+        inc_full = STATE_NAMES.get((inc_states or [""])[0], (inc_states or [""])[0])
+        where = f" incorporated in {inc_full}" if inc_full else ""
+
+        # A CIK is a stable SEC identifier whose filing is publicly verifiable.
+        edgar_filing = (
+            f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}&type=D"
+            if cik else None
+        )
 
         return Company(
             name=name,
             source=SecEdgarSource.name,
             source_id=cik or accession,
-            jurisdiction=", ".join(states) + (", USA" if states else "USA"),
+            jurisdiction=SecEdgarSource._jurisdiction(inc_states, biz_states),
             formation_date=file_date,
             website=None,
-            description=f"Form {form} filer on SEC EDGAR (new exempt securities offering).",
+            description=f"Form {form} filer on SEC EDGAR{where} (new exempt securities offering).",
             raw={
                 "cik": cik,
                 "accession": accession,
                 "file_date": file_date,
                 "file_type": form,
-                "inc_states": src.get("inc_states"),
-                "edgar_url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}"
-                if cik
-                else None,
+                "inc_states": inc_states,
+                "biz_states": biz_states,
+                "edgar_url": edgar_filing,
+                "registry": "SEC EDGAR",
             },
         )

@@ -40,6 +40,8 @@ class Company:
     discovered_date: Optional[str] = None  # ISO date the scout first saw it
     website: Optional[str] = None
     website_verified: bool = False  # True only after DNS/HTTP check passes
+    verified_real: bool = False     # backed by >=1 authoritative signal
+    verification: list[str] = field(default_factory=list)  # provenance strings
     description: str = ""
     raw: dict[str, Any] = field(default_factory=dict)
 
@@ -87,6 +89,8 @@ class Company:
             "discovered_date": self.discovered_date,
             "website": self.website,
             "website_verified": int(self.website_verified),
+            "verified_real": int(self.verified_real),
+            "verification": json.dumps(self.verification),
             "description": self.description,
             "ai_score": self.ai_score,
             "is_ai": int(self.is_ai),
@@ -112,6 +116,8 @@ class Company:
             discovered_date=row["discovered_date"],
             website=row["website"],
             website_verified=bool(row.get("website_verified", 0)),
+            verified_real=bool(row.get("verified_real", 0)),
+            verification=json.loads(row["verification"]) if row.get("verification") else [],
             description=row["description"] or "",
             ai_score=row["ai_score"] or 0.0,
             is_ai=bool(row["is_ai"]),

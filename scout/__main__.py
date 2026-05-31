@@ -37,7 +37,7 @@ def _cmd_gen_sample(args: argparse.Namespace) -> int:
 
     path = write(
         args.out,
-        max_age_days=args.max_age_days,
+        days_back=args.max_age_days,
         limit=args.limit,
     )
     print(f"Wrote Delaware sample dataset -> {path}")
@@ -64,6 +64,14 @@ def _cmd_run(args: argparse.Namespace) -> int:
         if args.user_agent:
             source_kwargs["user_agent"] = args.user_agent
     elif args.source == "delaware":
+        # EDGAR-backed DE incorporation feed: honor query/window like sec_edgar.
+        source_kwargs = {
+            "days_back": max(args.days_back, args.max_age_days),
+            "query": args.query,
+        }
+        if args.user_agent:
+            source_kwargs["user_agent"] = args.user_agent
+    elif args.source == "delaware_icis":
         source_kwargs = {"max_age_days": args.max_age_days}
 
     report = pipeline.run(args.source, limit=args.limit, **source_kwargs)

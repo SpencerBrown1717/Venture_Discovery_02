@@ -53,10 +53,10 @@ turns a raw public record into an investor-ready recommendation:
 library — **no install required**.
 
 ```bash
-# 1. Build the sample dataset by scraping recent Delaware incorporations
-#    (entities formed within the last 30 days). Falls back gracefully — the
-#    committed sample_companies.json already contains data.
-python -m scout gen-sample --max-age-days 30
+# 1. Build the sample dataset from REAL Delaware incorporations.
+#    Pulls firms *incorporated in DE* filing a Form D (last ~45 days) from
+#    SEC EDGAR — every record has a verifiable SEC CIK. No scraping, no API key.
+python -m scout gen-sample --max-age-days 45
 
 # 2. Discover + classify + research from the sample, then export
 python -m scout run --source sample --research --export
@@ -69,20 +69,40 @@ cd dashboard && python -m http.server 8000
 That's it. The committed `dashboard/data.json` means the dashboard also works
 the instant you deploy it — no pipeline run needed.
 
-### Run against the live Delaware registry
+### How we get real Delaware firms (and prove they're real)
 
-Newly incorporated firms are exactly what we want to catch in their first weeks.
-This connector scrapes the official Delaware Division of Corporations ICIS
-portal (no bulk API exists), reads each entity's incorporation date, and keeps
-only those formed within the scout window.
+Delaware has no public bulk API, and its ICIS portal explicitly **discourages
+data mining** (and is anti-automation, so scraping it is both fragile and against
+its terms). Instead we use a **legitimate, free, official** signal:
+
+> **SEC EDGAR's state-of-incorporation filter.** Newly formed Delaware entities
+> that raise any private capital file a **Form D**, and EDGAR lets you query for
+> filers whose state of *incorporation* is `DE`
+> (`locationType=incorporated&locationCodes=DE`).
+
+This gives real DE-incorporated companies, in their first weeks, each with a
+**verifiable SEC CIK and a public filing** — months before they hit mainstream
+startup databases. No API key, no anti-bot fight, updates continuously.
 
 ```bash
-python -m scout run --source delaware --max-age-days 30 --research --export
+# The reliable Delaware feed (EDGAR-backed)
+python -m scout run --source delaware \
+  --query '"artificial intelligence" OR robotics OR autonomous' \
+  --days-back 60 --research --export
 ```
 
-> The portal is rate-limited and occasionally returns transient errors; the
-> connector retries with backoff and fails soft (a bad record never aborts the
-> run). `gen-sample` uses this same source.
+**Every company is verified real.** On ingest each record is checked against
+independent, auditable signals and tagged `verified_real` with provenance:
+
+- an **SEC EDGAR CIK** (a registered filer with a public filing), and/or
+- a **website that resolves** over HTTP/DNS.
+
+The dashboard shows a **✓ Verified** badge on each card that links straight to
+the source SEC filing, plus a "Verification" section in the analysis drawer.
+
+> The original ICIS scraper is kept as a separate, best-effort source
+> (`--source delaware_icis`) for completeness, but it is **not** used for the
+> sample or the scheduled refresh because the portal is unreliable.
 
 ### Run against the live SEC EDGAR source
 
@@ -117,13 +137,13 @@ the heuristic classifier and heuristic memos — it never hard-fails.
 
 | Command | Description |
 | --- | --- |
-| `python -m scout gen-sample` | Scrape recent Delaware filings into the sample JSON |
-| `python -m scout run` | Discover → classify → (research) → store |
+| `python -m scout gen-sample` | Pull real DE-incorporated firms (EDGAR) into the sample JSON |
+| `python -m scout run` | Discover → verify → classify → (research) → store |
 | `python -m scout export` | Re-export `dashboard/data.json` from the DB |
 | `python -m scout stats` | Print database stats |
 | `python -m scout verify-links` | Verify every website URL in the sample JSON resolves |
 
-Useful `run` flags: `--source {sample,delaware,sec_edgar}`, `--limit N`,
+Useful `run` flags: `--source {sample,delaware,delaware_icis,sec_edgar}`, `--limit N`,
 `--max-age-days N`, `--llm`, `--research`, `--no-fetch-site`, `--export`,
 `--query`, `--days-back`, `--forms`, `--user-agent`.
 
@@ -134,9 +154,10 @@ Useful `run` flags: `--source {sample,delaware,sec_edgar}`, `--limit N`,
 There are two supported paths:
 
 **A. GitHub Actions (recommended, always-on — stretch goal 8).**
-`.github/workflows/deploy.yml` runs the pipeline (offline sample baseline + a
-best-effort live SEC EDGAR enrichment) and publishes `dashboard/` to Pages on
-every push, on a **daily schedule**, and on manual dispatch — so the public
+`.github/workflows/deploy.yml` regenerates the dataset from the **reliable
+EDGAR-backed Delaware feed**, runs the full analyst swarm, commits the refreshed
+data, and publishes `dashboard/` to Pages on every push, on a **weekly schedule**
+(keeping the 30-day discovery window current), and on manual dispatch — so the public
 dashboard keeps refreshing itself with no manual intervention.
 
 > One-time setup: repo **Settings → Pages → Build and deployment → Source =

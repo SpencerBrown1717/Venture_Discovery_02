@@ -44,3 +44,39 @@ def verify_company_website(company, *, clear_on_fail: bool = True) -> bool:
     if not ok and clear_on_fail:
         company.website = None
     return ok
+
+
+def verify_company(company, *, check_website: bool = True) -> bool:
+    """Establish that a company is *real* via independent, auditable signals.
+
+    A company is considered verified-real if at least one authoritative source
+    confirms it exists:
+      * an SEC EDGAR CIK (a registered filer with a public filing), or
+      * a government registry file number (e.g. Delaware), or
+      * a website that resolves over HTTP.
+
+    Each passing check is recorded in `company.verification` for provenance, and
+    `company.verified_real` is set accordingly.
+    """
+    sources: list[str] = []
+    raw = company.raw or {}
+
+    cik = str(raw.get("cik") or "").strip()
+    if cik:
+        sources.append(f"SEC EDGAR CIK {cik}")
+
+    file_number = str(raw.get("file_number") or "").strip()
+    if file_number:
+        sources.append(f"Delaware file #{file_number}")
+
+    if check_website and company.website:
+        if verify_company_website(company):
+            host = company.website.replace("https://", "").replace("http://", "").strip("/")
+            sources.append(f"Live website ({host})")
+    elif check_website:
+        # still record the (failed/empty) website check without raising
+        company.website_verified = bool(company.website) and verify_url(company.website)
+
+    company.verification = sources
+    company.verified_real = bool(sources)
+    return company.verified_real

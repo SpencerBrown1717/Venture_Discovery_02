@@ -2,16 +2,18 @@ name: Scout — discover & deploy dashboard
 
 # Always-on Venture Intelligence (stretch goal 8):
 # regenerate the data with the autonomous pipeline and publish the dashboard to
-# GitHub Pages. Runs on push, on a daily schedule, and on demand.
+# GitHub Pages. Runs on push, weekly (so the monthly window stays fresh), and on
+# demand. The data source is SEC EDGAR's DE state-of-incorporation filter, which
+# is a reliable free API — so scheduled runs don't depend on flaky scraping.
 on:
   push:
     branches: [main]
   schedule:
-    - cron: "17 13 * * *" # daily ~06:17 PT
+    - cron: "17 13 * * 1" # every Monday ~06:17 PT (keeps the 30-day window current)
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -29,9 +31,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Scrape Delaware filings (refresh sample, best-effort)
-        continue-on-error: true
-        run: python -m scout gen-sample --max-age-days 30 --limit 80
+      - name: Refresh Delaware sample (real DE incorporations via SEC EDGAR)
+        run: python -m scout gen-sample --max-age-days 45 --limit 80
 
       - name: Run Venture Analyst Swarm on Delaware sample
         run: python -m scout run --source sample --research --no-fetch-site --export
@@ -40,11 +41,20 @@ jobs:
         continue-on-error: true
         run: |
           python -m scout run \
-            --source sec_edgar \
-            --query '"artificial intelligence"' \
+            --source delaware \
+            --query '"artificial intelligence" OR "machine learning" OR robotics OR autonomous' \
             --days-back 120 --limit 40 \
             --user-agent "AI-Incorporation-Scout (github-actions; contact: scout@example.com)" \
             --research --export
+
+      - name: Commit refreshed dataset (keeps repo data current)
+        continue-on-error: true
+        run: |
+          git config user.name "scout-bot"
+          git config user.email "scout-bot@users.noreply.github.com"
+          git add scout/data/sample_companies.json dashboard/data.json
+          git commit -m "chore: refresh Delaware dataset [skip ci]" || echo "no changes"
+          git push || echo "push skipped"
 
       - name: Upload dashboard as Pages artifact
         uses: actions/upload-pages-artifact@v3

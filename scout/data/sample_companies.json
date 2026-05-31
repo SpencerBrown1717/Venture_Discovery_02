@@ -1,403 +1,1140 @@
 [
   {
-    "name": "Willow & Sage Interiors LLC",
-    "source_id": "sample-2047333",
-    "jurisdiction": "Massachusetts, USA",
-    "formation_date": "2026-05-29",
-    "description": "Residential interior design and home staging studio."
+    "name": "1X Robotics Mar 2026 a Series of CGF2021 LLC",
+    "source": "delaware",
+    "source_id": "0002128719",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-05-28",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002128719",
+      "accession": "0002128719-26-000001:primary_doc.xml",
+      "file_date": "2026-05-28",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "DE"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002128719&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Runway AI Inc.",
-    "source_id": "sample-4444737",
-    "jurisdiction": "Paris, FR",
-    "formation_date": "2026-05-27",
-    "description": "Generative video and creative AI tools for creators.",
-    "website": "https://runwayml.com"
+    "name": "Artificial Intelligence Progress Research, LP",
+    "source": "delaware",
+    "source_id": "0002133240",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-05-26",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002133240",
+      "accession": "0002133240-26-000002:primary_doc.xml",
+      "file_date": "2026-05-26",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002133240&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Hippocratic AI Inc.",
-    "source_id": "sample-2564914",
-    "jurisdiction": "Tel Aviv, IL",
+    "name": "Slip Robotics May 2026 a Series of CGF2021 LLC",
+    "source": "delaware",
+    "source_id": "0002134577",
+    "jurisdiction": "Delaware, USA",
     "formation_date": "2026-05-22",
-    "description": "Safety-focused LLMs for healthcare workflows.",
-    "website": "https://hippocraticai.com"
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002134577",
+      "accession": "0002134577-26-000001:primary_doc.xml",
+      "file_date": "2026-05-22",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "DE"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134577&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Harborview Logistics Inc.",
-    "source_id": "sample-4657094",
-    "jurisdiction": "New York, USA",
-    "formation_date": "2026-05-21",
-    "description": "Freight forwarding and last-mile delivery across the eastern seaboard."
+    "name": "OT Robotics Fund I, LLC",
+    "source": "delaware",
+    "source_id": "0002113578",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-05-20",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002113578",
+      "accession": "0002113578-26-000001:primary_doc.xml",
+      "file_date": "2026-05-20",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "MA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002113578&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Pika Labs Inc.",
-    "source_id": "sample-6991662",
-    "jurisdiction": "California, USA",
+    "name": "Blackstone Infrastructure Partners F.2 L.P.",
+    "source": "delaware",
+    "source_id": "0001735627",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-05-20",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0001735627",
+      "accession": "0001735627-26-000002:primary_doc.xml",
+      "file_date": "2026-05-20",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001735627&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Allied Innovation Artificial Intelligence Fund, LLC",
+    "source": "delaware",
+    "source_id": "0002021379",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-05-15",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002021379",
+      "accession": "0002021379-26-000001:primary_doc.xml",
+      "file_date": "2026-05-15",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002021379&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "CAMPBELL FUND TRUST",
+    "source": "delaware",
+    "source_id": "0001043951",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-05-15",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0001043951",
+      "accession": "0001043951-26-000001:primary_doc.xml",
+      "file_date": "2026-05-15",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "MD"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001043951&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Obra Insurance Fund, LP",
+    "source": "delaware",
+    "source_id": "0001493418",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-05-14",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0001493418",
+      "accession": "0001493418-26-000004:primary_doc.xml",
+      "file_date": "2026-05-14",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "TX"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001493418&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Dwight Mortgage Trust LLC",
+    "source": "delaware",
+    "source_id": "0001729201",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-05-14",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0001729201",
+      "accession": "0001013594-26-000580:primary_doc.xml",
+      "file_date": "2026-05-14",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001729201&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Luminous Robotics Inc Apr 2026 a Series of CGF2021 LLC",
+    "source": "delaware",
+    "source_id": "0002131102",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-05-13",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002131102",
+      "accession": "0002131102-26-000001:primary_doc.xml",
+      "file_date": "2026-05-13",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "DE"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002131102&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "PALO ALTO CAPITAL ROBOTICS 2 L.P.",
+    "source": "delaware",
+    "source_id": "0002134520",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-05-12",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002134520",
+      "accession": "0002134520-26-000001:primary_doc.xml",
+      "file_date": "2026-05-12",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "CA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134520&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "PALO ALTO CAPITAL ROBOTICS 1 L.P.",
+    "source": "delaware",
+    "source_id": "0002117874",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-05-12",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002117874",
+      "accession": "0002117874-26-000001:primary_doc.xml",
+      "file_date": "2026-05-12",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "CA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002117874&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Tribe Capital Autonomous Fund I, L.P.",
+    "source": "delaware",
+    "source_id": "0002134101",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-05-11",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002134101",
+      "accession": "0002134101-26-000001:primary_doc.xml",
+      "file_date": "2026-05-11",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "CA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134101&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Pentra Robotics, inc.",
+    "source": "delaware",
+    "source_id": "0002134129",
+    "jurisdiction": "Delaware, USA",
     "formation_date": "2026-05-07",
-    "description": "Generative video model for text-to-video creation.",
-    "website": "https://pika.art"
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002134129",
+      "accession": "0002134129-26-000001:primary_doc.xml",
+      "file_date": "2026-05-07",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "CA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134129&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Sterling Property Group LLC",
-    "source_id": "sample-1038225",
-    "jurisdiction": "Washington, USA",
-    "formation_date": "2026-05-04",
-    "description": "Commercial real estate brokerage and property management."
+    "name": "Sound Point Discovery Fund LLC",
+    "source": "delaware",
+    "source_id": "0001674820",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-05-05",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0001674820",
+      "accession": "0001674820-26-000001:primary_doc.xml",
+      "file_date": "2026-05-05",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001674820&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Cohere Inc.",
-    "source_id": "sample-2741875",
-    "jurisdiction": "Massachusetts, USA",
-    "formation_date": "2026-05-01",
-    "description": "Enterprise NLP platform for search, generation, and embeddings.",
-    "website": "https://cohere.com"
-  },
-  {
-    "name": "Summit Fitness Collective LLC",
-    "source_id": "sample-1749414",
-    "jurisdiction": "New York, USA",
-    "formation_date": "2026-05-01",
-    "description": "Boutique fitness studio offering strength and conditioning classes."
-  },
-  {
-    "name": "Pinecone Systems Inc.",
-    "source_id": "sample-5756345",
-    "jurisdiction": "New York, USA",
+    "name": "Luminous Robotics, Inc.",
+    "source": "delaware",
+    "source_id": "0002080868",
+    "jurisdiction": "Delaware, USA",
     "formation_date": "2026-04-30",
-    "description": "Managed vector database for production RAG applications.",
-    "website": "https://pinecone.io"
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002080868",
+      "accession": "0002080868-26-000001:primary_doc.xml",
+      "file_date": "2026-04-30",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "MA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002080868&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Cognitive Coffee Roasters LLC",
-    "source_id": "sample-2972559",
+    "name": "Fort Washington Private Equity Small Market Investors III-K, L.P.",
+    "source": "delaware",
+    "source_id": "0002132025",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-29",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002132025",
+      "accession": "0002132025-26-000001:primary_doc.xml",
+      "file_date": "2026-04-29",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "OH"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002132025&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Fort Washington Private Equity Small Market Investors III, L.P.",
+    "source": "delaware",
+    "source_id": "0002131982",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-29",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002131982",
+      "accession": "0002131982-26-000002:primary_doc.xml",
+      "file_date": "2026-04-29",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "OH"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002131982&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Fort Washington Private Equity Small Market Investors III-B, L.P.",
+    "source": "delaware",
+    "source_id": "0002132029",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-29",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002132029",
+      "accession": "0002132029-26-000001:primary_doc.xml",
+      "file_date": "2026-04-29",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "OH"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002132029&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Belhurst Capital Fund LLC",
+    "source": "delaware",
+    "source_id": "0001886309",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-24",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0001886309",
+      "accession": "0000945621-26-000601:primary_doc.xml",
+      "file_date": "2026-04-24",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "MA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001886309&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "InvestX Series (OPN-U5 QP), a Series of InvestX Master LLC",
+    "source": "delaware",
+    "source_id": "0002127035",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-24",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002127035",
+      "accession": "0002127035-26-000001:primary_doc.xml",
+      "file_date": "2026-04-24",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002127035&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Artificial Intelligence Trading, L.P.",
+    "source": "delaware",
+    "source_id": "0002083074",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-21",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002083074",
+      "accession": "0002083074-26-000003:primary_doc.xml",
+      "file_date": "2026-04-21",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002083074&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Loki Robotics, Inc.",
+    "source": "delaware",
+    "source_id": "0002130373",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-21",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002130373",
+      "accession": "0002130373-26-000001:primary_doc.xml",
+      "file_date": "2026-04-21",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "DE"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002130373&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Autonomous Cyber, Inc.",
+    "source": "delaware",
+    "source_id": "0002065345",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-21",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002065345",
+      "accession": "0002065345-26-000001:primary_doc.xml",
+      "file_date": "2026-04-21",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "CA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002065345&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Reliable Robotics a Series of What If Ventures Master LLC",
+    "source": "delaware",
+    "source_id": "0002117270",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-13",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002117270",
+      "accession": "0002117270-26-000001:primary_doc.xml",
+      "file_date": "2026-04-13",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "DE"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002117270&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Feather Robotics Inc.",
+    "source": "delaware",
+    "source_id": "0002128909",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-13",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002128909",
+      "accession": "0002128909-26-000001:primary_doc.xml",
+      "file_date": "2026-04-13",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "CA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002128909&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Apricity Robotics Inc.",
+    "source": "delaware",
+    "source_id": "0002021333",
     "jurisdiction": "Delaware, USA",
     "formation_date": "2026-04-09",
-    "description": "Specialty coffee roastery and neighborhood cafe."
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002021333",
+      "accession": "0002021333-26-000002:primary_doc.xml",
+      "file_date": "2026-04-09",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "OH"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002021333&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Granite Peak Construction LLC",
-    "source_id": "sample-4870443",
-    "jurisdiction": "Singapore, SG",
-    "formation_date": "2026-04-08",
-    "description": "Commercial construction and general contracting services."
+    "name": "Venus Concept Inc.  (VERO)",
+    "source": "delaware",
+    "source_id": "0001409269",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-09",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0001409269",
+      "accession": "0000912282-26-000569:primary_doc.xml",
+      "file_date": "2026-04-09",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001409269&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Voyage AI Inc.",
-    "source_id": "sample-5445576",
-    "jurisdiction": "Washington, USA",
-    "formation_date": "2026-04-05",
-    "description": "Embedding models optimized for retrieval and search.",
-    "website": "https://voyageai.com"
-  },
-  {
-    "name": "Smart Home Comfort Inc.",
-    "source_id": "sample-2017147",
-    "jurisdiction": "California, USA",
+    "name": "Rendezvous Robotics, Inc.",
+    "source": "delaware",
+    "source_id": "0002114701",
+    "jurisdiction": "Delaware, USA",
     "formation_date": "2026-04-02",
-    "description": "Installs smart thermostats and connected home automation hardware."
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002114701",
+      "accession": "0002114701-26-000001:primary_doc.xml",
+      "file_date": "2026-04-02",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "CO"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002114701&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Fireworks AI Inc.",
-    "source_id": "sample-6894828",
-    "jurisdiction": "Toronto, CA",
-    "formation_date": "2026-03-30",
-    "description": "Fast inference engine for open-source and custom language models.",
-    "website": "https://fireworks.ai"
-  },
-  {
-    "name": "Apex Auto Repair Inc.",
-    "source_id": "sample-2643662",
-    "jurisdiction": "Texas, USA",
-    "formation_date": "2026-03-29",
-    "description": "Independent auto repair shop and tire service center."
-  },
-  {
-    "name": "Harvey AI Inc.",
-    "source_id": "sample-6204007",
+    "name": "RISE Robotics I, a series of Capitalize Investments LLC",
+    "source": "delaware",
+    "source_id": "0002126049",
     "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-03-28",
-    "description": "AI assistant for legal research and contract workflows.",
-    "website": "https://harvey.ai"
+    "formation_date": "2026-03-31",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002126049",
+      "accession": "0002126049-26-000001:primary_doc.xml",
+      "file_date": "2026-03-31",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NV"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002126049&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Ambience Healthcare Inc.",
-    "source_id": "sample-6607801",
-    "jurisdiction": "Washington, USA",
-    "formation_date": "2026-03-26",
-    "description": "AI operating system for clinical documentation.",
-    "website": "https://ambiencehealthcare.com"
+    "name": "Keda Robotics, Inc.",
+    "source": "delaware",
+    "source_id": "0002125382",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-27",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002125382",
+      "accession": "0002125382-26-000001:primary_doc.xml",
+      "file_date": "2026-03-27",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002125382&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Mountain Air HVAC LLC",
-    "source_id": "sample-4802547",
-    "jurisdiction": "Washington, USA",
-    "formation_date": "2026-03-19",
-    "description": "Residential heating, ventilation, and air conditioning installation."
+    "name": "Cargo Robotics Feb 2026 a Series of CGF2021 LLC",
+    "source": "delaware",
+    "source_id": "0002114828",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-24",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002114828",
+      "accession": "0002114828-26-000001:primary_doc.xml",
+      "file_date": "2026-03-24",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "DE"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002114828&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Weights & Biases Inc.",
-    "source_id": "sample-1017556",
-    "jurisdiction": "London, UK",
+    "name": "GSBackers Verdant Robotics Fund II a Series of CGF2021 LLC",
+    "source": "delaware",
+    "source_id": "0002122849",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-23",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002122849",
+      "accession": "0002122849-26-000001:primary_doc.xml",
+      "file_date": "2026-03-23",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "DE"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002122849&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Evolved Robotics, Inc.",
+    "source": "delaware",
+    "source_id": "0002113387",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-20",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002113387",
+      "accession": "0002113387-26-000001:primary_doc.xml",
+      "file_date": "2026-03-20",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "WA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002113387&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "THIRD POINT PARTNERS QUALIFIED L P",
+    "source": "delaware",
+    "source_id": "0001341499",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-18",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0001341499",
+      "accession": "0001341499-26-000001:primary_doc.xml",
+      "file_date": "2026-03-18",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341499&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Integris AI Healthcare Group, Inc.",
+    "source": "delaware",
+    "source_id": "0001001988",
+    "jurisdiction": "Delaware, USA",
     "formation_date": "2026-03-17",
-    "description": "MLOps platform for experiment tracking and model monitoring.",
-    "website": "https://wandb.ai"
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0001001988",
+      "accession": "0001001988-26-000004:primary_doc.xml",
+      "file_date": "2026-03-17",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "DC"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001001988&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Ramp Business Corporation",
-    "source_id": "sample-6635391",
-    "jurisdiction": "Toronto, CA",
-    "formation_date": "2026-03-16",
-    "description": "Corporate card and spend platform with AI-powered finance automation.",
-    "website": "https://ramp.com"
-  },
-  {
-    "name": "Riverside Family Dental PLLC",
-    "source_id": "sample-5551497",
+    "name": "IRONWOOD PARTNERS LP",
+    "source": "delaware",
+    "source_id": "0000884031",
     "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-03-16",
-    "description": "General and cosmetic dentistry practice serving the metro area."
+    "formation_date": "2026-03-17",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0000884031",
+      "accession": "0000905148-26-001308:primary_doc.xml",
+      "file_date": "2026-03-17",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "CA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000884031&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Perplexity AI Inc.",
-    "source_id": "sample-5110450",
-    "jurisdiction": "California, USA",
+    "name": "NEW YORK LIFE INSURANCE & ANNUITY CORP",
+    "source": "delaware",
+    "source_id": "0000727136",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-11",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0000727136",
+      "accession": "0000727136-26-000005:primary_doc.xml",
+      "file_date": "2026-03-11",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000727136&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Belnova Capital Fund LLC",
+    "source": "delaware",
+    "source_id": "0002030239",
+    "jurisdiction": "Delaware, USA",
     "formation_date": "2026-03-10",
-    "description": "AI-native answer engine with real-time web retrieval.",
-    "website": "https://perplexity.ai"
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002030239",
+      "accession": "0000945621-26-000432:primary_doc.xml",
+      "file_date": "2026-03-10",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "MA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002030239&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Cursor (Anysphere Inc.)",
-    "source_id": "sample-4213791",
-    "jurisdiction": "Toronto, CA",
-    "formation_date": "2026-03-07",
-    "description": "AI-native code editor with agentic pair programming.",
-    "website": "https://cursor.com"
+    "name": "BREX Briggs MF DST",
+    "source": "delaware",
+    "source_id": "0002083653",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-09",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002083653",
+      "accession": "0002083653-26-000002:primary_doc.xml",
+      "file_date": "2026-03-09",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002083653&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "CrewAI Inc.",
-    "source_id": "sample-3962488",
-    "jurisdiction": "Texas, USA",
-    "formation_date": "2026-03-01",
-    "description": "Framework for orchestrating role-playing autonomous AI agents.",
-    "website": "https://crewai.com"
+    "name": "Wheaton Multifamily DST",
+    "source": "delaware",
+    "source_id": "0002047612",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-09",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002047612",
+      "accession": "0002047612-26-000001:primary_doc.xml",
+      "file_date": "2026-03-09",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "IL"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002047612&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Brightline Marketing LLC",
-    "source_id": "sample-7955234",
-    "jurisdiction": "Paris, FR",
-    "formation_date": "2026-02-22",
-    "description": "Boutique brand and performance marketing agency."
+    "name": "Agility Robotics SPV Feb 2026 a Series of CGF2021 LLC",
+    "source": "delaware",
+    "source_id": "0002113357",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-26",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002113357",
+      "accession": "0002113357-26-000001:primary_doc.xml",
+      "file_date": "2026-02-26",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "DE"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002113357&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Coastal Catering Co.",
-    "source_id": "sample-8221082",
-    "jurisdiction": "Toronto, CA",
+    "name": "Xperience Robotics, Inc.",
+    "source": "delaware",
+    "source_id": "0001960719",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-24",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0001960719",
+      "accession": "0001960719-26-000002:primary_doc.xml",
+      "file_date": "2026-02-24",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "OH"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001960719&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "SPF Securitized Products Fund L.P.",
+    "source": "delaware",
+    "source_id": "0001549885",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-24",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0001549885",
+      "accession": "0001549885-26-000001:primary_doc.xml",
+      "file_date": "2026-02-24",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001549885&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Equitybee 22-89967, a Series of Equitybee cFund Master LLC",
+    "source": "delaware",
+    "source_id": "0001956081",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-24",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0001956081",
+      "accession": "0001956081-26-000001:primary_doc.xml",
+      "file_date": "2026-02-24",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "UT"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001956081&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Coco Robotics DDGR II a Series of CGF2021 LLC",
+    "source": "delaware",
+    "source_id": "0002107438",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-19",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002107438",
+      "accession": "0002107438-26-000001:primary_doc.xml",
+      "file_date": "2026-02-19",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "DE"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107438&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "Pontux Inc.",
+    "source": "delaware",
+    "source_id": "0002111935",
+    "jurisdiction": "Delaware, USA",
     "formation_date": "2026-02-18",
-    "description": "Full-service event catering and private chef services."
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002111935",
+      "accession": "0002111935-26-000001:primary_doc.xml",
+      "file_date": "2026-02-18",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002111935&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Sierra Technologies Inc.",
-    "source_id": "sample-2461176",
-    "jurisdiction": "Tel Aviv, IL",
+    "name": "INVEXT VERDANT ROBOTICS A SERIES OF INVEXT LLC",
+    "source": "delaware",
+    "source_id": "0002069596",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-18",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002069596",
+      "accession": "0002069596-26-000004:primary_doc.xml",
+      "file_date": "2026-02-18",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "CA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002069596&type=D",
+      "registry": "SEC EDGAR"
+    }
+  },
+  {
+    "name": "General Robotics A a Series of What If Ventures Master LLC",
+    "source": "delaware",
+    "source_id": "0002111163",
+    "jurisdiction": "Delaware, USA",
     "formation_date": "2026-02-13",
-    "description": "Conversational AI agents for enterprise customer experience.",
-    "website": "https://sierra.ai"
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002111163",
+      "accession": "0002111163-26-000001:primary_doc.xml",
+      "file_date": "2026-02-13",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "DE"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002111163&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Scale AI Inc.",
-    "source_id": "sample-1991609",
-    "jurisdiction": "Paris, FR",
-    "formation_date": "2026-02-11",
-    "description": "Data engine and RLHF infrastructure for AI model development.",
-    "website": "https://scale.com"
+    "name": "CF Chestnut Street Multifamily DST",
+    "source": "delaware",
+    "source_id": "0002067951",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-13",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002067951",
+      "accession": "0002067951-26-000001:primary_doc.xml",
+      "file_date": "2026-02-13",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067951&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Sardine AI Inc.",
-    "source_id": "sample-2221449",
-    "jurisdiction": "Massachusetts, USA",
-    "formation_date": "2026-02-05",
-    "description": "AI fraud prevention and compliance for fintech.",
-    "website": "https://sardine.ai"
+    "name": "NonPublic Robotics Fund V, a Series of A Master Series, LLC",
+    "source": "delaware",
+    "source_id": "0002109903",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-10",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002109903",
+      "accession": "0002109903-26-000001:primary_doc.xml",
+      "file_date": "2026-02-10",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "FL"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002109903&type=D",
+      "registry": "SEC EDGAR"
+    }
   },
   {
-    "name": "Model Citizen Apparel LLC",
-    "source_id": "sample-6848712",
-    "jurisdiction": "Texas, USA",
-    "formation_date": "2026-02-02",
-    "description": "Direct-to-consumer sustainable clothing brand."
-  },
-  {
-    "name": "Glean Technologies Inc.",
-    "source_id": "sample-8709039",
-    "jurisdiction": "Singapore, SG",
-    "formation_date": "2026-01-30",
-    "description": "Enterprise AI search and knowledge discovery across apps.",
-    "website": "https://glean.com"
-  },
-  {
-    "name": "Replit Inc.",
-    "source_id": "sample-3133675",
-    "jurisdiction": "Washington, USA",
-    "formation_date": "2026-01-28",
-    "description": "Cloud IDE with AI agent for building and deploying apps.",
-    "website": "https://replit.com"
-  },
-  {
-    "name": "Together AI Inc.",
-    "source_id": "sample-2171443",
-    "jurisdiction": "London, UK",
-    "formation_date": "2026-01-18",
-    "description": "High-throughput open-source LLM inference and fine-tuning platform.",
-    "website": "https://together.ai"
-  },
-  {
-    "name": "Hex Technologies Inc.",
-    "source_id": "sample-5327326",
-    "jurisdiction": "Washington, USA",
-    "formation_date": "2026-01-14",
-    "description": "Collaborative data workspace with AI analytics copilot.",
-    "website": "https://hex.tech"
-  },
-  {
-    "name": "Figure AI Inc.",
-    "source_id": "sample-7545575",
-    "jurisdiction": "Berlin, DE",
-    "formation_date": "2026-01-09",
-    "description": "Humanoid robots powered by AI for labor automation.",
-    "website": "https://figure.ai"
-  },
-  {
-    "name": "Evergreen Landscaping Inc.",
-    "source_id": "sample-5063547",
-    "jurisdiction": "Tel Aviv, IL",
-    "formation_date": "2026-01-08",
-    "description": "Landscape design, installation, and seasonal maintenance."
-  },
-  {
-    "name": "Abridge Inc.",
-    "source_id": "sample-4593864",
-    "jurisdiction": "Toronto, CA",
-    "formation_date": "2025-12-21",
-    "description": "AI clinical documentation from ambient conversation.",
-    "website": "https://abridge.com"
-  },
-  {
-    "name": "Anyscale Inc.",
-    "source_id": "sample-2283527",
-    "jurisdiction": "Washington, USA",
-    "formation_date": "2025-12-16",
-    "description": "Ray-based platform for scaling AI and Python workloads.",
-    "website": "https://anyscale.com"
-  },
-  {
-    "name": "Weaviate B.V.",
-    "source_id": "sample-5645576",
-    "jurisdiction": "Toronto, CA",
-    "formation_date": "2025-12-08",
-    "description": "Open-source vector database and hybrid search engine.",
-    "website": "https://weaviate.io"
-  },
-  {
-    "name": "Modal Labs Inc.",
-    "source_id": "sample-2639913",
-    "jurisdiction": "Washington, USA",
-    "formation_date": "2025-11-28",
-    "description": "Serverless GPU compute platform for AI model training and inference.",
-    "website": "https://modal.com"
-  },
-  {
-    "name": "Covariant Inc.",
-    "source_id": "sample-4475430",
-    "jurisdiction": "London, UK",
-    "formation_date": "2025-11-26",
-    "description": "AI robotics for warehouse picking and manipulation.",
-    "website": "https://covariant.ai"
-  },
-  {
-    "name": "Mistral AI SAS",
-    "source_id": "sample-4447169",
-    "jurisdiction": "Berlin, DE",
-    "formation_date": "2025-11-19",
-    "description": "Open-weight foundation models and enterprise AI platform.",
-    "website": "https://mistral.ai"
-  },
-  {
-    "name": "Skild AI Inc.",
-    "source_id": "sample-5439483",
-    "jurisdiction": "New York, USA",
-    "formation_date": "2025-11-16",
-    "description": "General-purpose AI brain for diverse robot embodiments.",
-    "website": "https://skild.ai"
-  },
-  {
-    "name": "Landing AI Inc.",
-    "source_id": "sample-4983267",
-    "jurisdiction": "California, USA",
-    "formation_date": "2025-11-05",
-    "description": "Visual inspection and computer vision for manufacturing.",
-    "website": "https://landing.ai"
-  },
-  {
-    "name": "Groq Inc.",
-    "source_id": "sample-6670056",
-    "jurisdiction": "Paris, FR",
-    "formation_date": "2025-10-28",
-    "description": "LPU inference hardware and cloud for low-latency LLM serving.",
-    "website": "https://groq.com"
-  },
-  {
-    "name": "Roboflow Inc.",
-    "source_id": "sample-4028346",
-    "jurisdiction": "Texas, USA",
-    "formation_date": "2025-10-27",
-    "description": "Computer vision platform for training and deploying models.",
-    "website": "https://roboflow.com"
-  },
-  {
-    "name": "Snorkel AI Inc.",
-    "source_id": "sample-5687867",
-    "jurisdiction": "Berlin, DE",
-    "formation_date": "2025-10-24",
-    "description": "Data-centric AI platform for programmatic labeling.",
-    "website": "https://snorkel.ai"
-  },
-  {
-    "name": "Intelligent Cleaning Services LLC",
-    "source_id": "sample-3356635",
-    "jurisdiction": "Toronto, CA",
-    "formation_date": "2025-10-23",
-    "description": "Commercial janitorial and facilities cleaning services."
-  },
-  {
-    "name": "Baseten Inc.",
-    "source_id": "sample-4560633",
-    "jurisdiction": "Paris, FR",
-    "formation_date": "2025-10-22",
-    "description": "Model serving infrastructure for production ML deployments.",
-    "website": "https://baseten.co"
-  },
-  {
-    "name": "Sourcegraph Inc.",
-    "source_id": "sample-4836705",
-    "jurisdiction": "Massachusetts, USA",
-    "formation_date": "2025-10-21",
-    "description": "AI coding assistant and codebase intelligence platform.",
-    "website": "https://sourcegraph.com"
-  },
-  {
-    "name": "ElevenLabs Inc.",
-    "source_id": "sample-8653492",
-    "jurisdiction": "California, USA",
-    "formation_date": "2025-10-15",
-    "description": "AI voice synthesis and speech generation platform.",
-    "website": "https://elevenlabs.io"
-  },
-  {
-    "name": "LangChain Inc.",
-    "source_id": "sample-4531363",
-    "jurisdiction": "New York, USA",
-    "formation_date": "2025-10-10",
-    "description": "Developer platform for building LLM-powered applications and agents.",
-    "website": "https://langchain.com"
+    "name": "Griffin Capital (Heritage - Gonzales, LA) DST",
+    "source": "delaware",
+    "source_id": "0002074085",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-06",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "raw": {
+      "cik": "0002074085",
+      "accession": "0002074085-26-000001:primary_doc.xml",
+      "file_date": "2026-02-06",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "CA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002074085&type=D",
+      "registry": "SEC EDGAR"
+    }
   }
 ]
