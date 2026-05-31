@@ -166,7 +166,8 @@ class MemoAgent:
         ).lower()
 
         category = company.ai_category or "General AI"
-        stage = self._estimate_stage(corpus)
+        # Prefer the real stage derived from the Form D capital signal.
+        stage = (company.raw or {}).get("stage") or self._estimate_stage(corpus)
         market_note = MARKET_NOTES.get(category, MARKET_NOTES["General AI"])
 
         signals = list(company.ai_signals[:6])

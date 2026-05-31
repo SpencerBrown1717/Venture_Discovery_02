@@ -3,44 +3,103 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI Incorporation Scout</title>
-  <meta name="description" content="Autonomous discovery of newly formed AI companies before they hit mainstream databases." />
+  <title>SCOUT — AI Incorporation Intelligence</title>
+  <meta name="description" content="Autonomous discovery of newly formed, SEC-verified AI companies — caught at incorporation, before they hit mainstream databases." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="bg-grid" aria-hidden="true"></div>
 
-  <header class="topbar">
-    <div class="brand">
-      <div class="logo">◎</div>
-      <div>
-        <h1>AI Incorporation Scout</h1>
-        <p class="tagline">Real Delaware-incorporated AI firms — verified via SEC EDGAR, refreshed automatically.</p>
-      </div>
+  <!-- Status bar -->
+  <div class="statusbar">
+    <div class="sb-left"><span class="dot"></span> SCOUT <span class="sb-sep">//</span> INCORPORATION INTELLIGENCE</div>
+    <div class="sb-right">
+      <span class="sb-feed">● SCANNING SEC EDGAR <span class="sb-sep">·</span> DELAWARE</span>
+      <span class="sb-clock" id="clock">--:--</span>
     </div>
-    <div class="meta" id="generatedAt"></div>
-  </header>
+  </div>
 
   <main>
-    <!-- Stat cards -->
+    <!-- Hero -->
+    <header class="hero">
+      <div class="hero-copy">
+        <div class="kicker">— Autonomous venture discovery</div>
+        <h1>The companies<br />nobody is watching <em>yet.</em></h1>
+        <p class="lede">
+          An autonomous agent ingests public <b>incorporation records</b>, verifies each
+          firm against <b>SEC EDGAR</b>, classifies AI-related formations, pulls the real
+          <b>founding team</b>, and ranks them by opportunity — surfacing companies in their
+          first weeks, before they reach mainstream databases.
+        </p>
+        <div class="how">
+          <span class="how-step"><b>01</b> Ingest DE filings</span>
+          <span class="how-arrow">→</span>
+          <span class="how-step"><b>02</b> Verify &amp; classify</span>
+          <span class="how-arrow">→</span>
+          <span class="how-step"><b>03</b> Research &amp; score</span>
+        </div>
+      </div>
+      <div class="radar" aria-hidden="true">
+        <div class="radar-sweep"></div>
+        <span class="blip b1"></span><span class="blip b2"></span>
+        <span class="blip b3"></span><span class="blip b4"></span>
+      </div>
+    </header>
+
+    <!-- Stat strip -->
     <section class="stats" id="stats" aria-label="Summary statistics"></section>
 
-    <!-- Top opportunities (leaderboard) -->
-    <section class="panel" id="leaderboardPanel">
-      <div class="panel-head">
-        <h2>Top Opportunities</h2>
-        <span class="hint">Ranked by the analyst swarm's opportunity score · stretch goals 3 &amp; 4</span>
+    <!-- Tabs -->
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-tab="feed" role="tab">◷ Discovery Feed</button>
+      <button class="tab" data-tab="trends" role="tab">◬ Trends</button>
+      <button class="tab" data-tab="watch" role="tab">★ Watchlist <span class="tab-count" id="watchCount">0</span></button>
+    </nav>
+
+    <!-- FEED TAB -->
+    <section class="tabpanel" id="panel-feed">
+      <!-- Search + controls -->
+      <div class="searchbar">
+        <span class="search-ico">⌕</span>
+        <input id="search" type="search" autocomplete="off"
+          placeholder='Ask: "robotics seed stage", "raised over $5M", "formed this month"…' />
+        <kbd>/</kbd>
       </div>
-      <div class="leaderboard" id="leaderboard"></div>
+      <div class="examples" id="examples"></div>
+
+      <div class="controls">
+        <label class="toggle">
+          <input type="checkbox" id="aiOnly" checked /><span>AI only</span>
+        </label>
+        <select id="category" aria-label="Category filter"></select>
+        <select id="stage" aria-label="Stage filter"></select>
+        <select id="sort" aria-label="Sort">
+          <option value="score">Sort: Opportunity ↓</option>
+          <option value="conf">Sort: Confidence ↓</option>
+          <option value="date">Sort: Newest</option>
+          <option value="raised">Sort: Capital raised ↓</option>
+          <option value="name">Sort: A→Z</option>
+        </select>
+        <label class="slider">
+          Min confidence <b id="minScoreLabel">0%</b>
+          <input type="range" id="minScore" min="0" max="100" value="0" />
+        </label>
+        <div class="viewtoggle" role="group" aria-label="View">
+          <button id="viewGrid" class="vt active" title="Grid">▦</button>
+          <button id="viewList" class="vt" title="List">≣</button>
+        </div>
+      </div>
+
+      <div class="resultmeta" id="resultMeta"></div>
+      <div id="groups" class="groups"></div>
+      <div id="empty" class="empty" hidden>No companies match these filters.</div>
     </section>
 
-    <!-- Trends -->
-    <section class="panel" id="trendsPanel">
-      <div class="panel-head">
-        <h2>Trend Intelligence</h2>
-        <span class="hint">AI formation momentum over time · stretch goal 6</span>
-      </div>
+    <!-- TRENDS TAB -->
+    <section class="tabpanel" id="panel-trends" hidden>
       <div class="trends-grid">
         <div class="trend-card">
           <h3>AI discoveries by month</h3>
@@ -61,50 +120,23 @@
       </div>
     </section>
 
-    <!-- Controls -->
-    <section class="controls">
-      <div class="search-wrap">
-        <input
-          id="search"
-          type="search"
-          placeholder="Ask: &quot;AI infrastructure companies founded this month&quot; or &quot;developer tools last 30 days&quot;"
-          autocomplete="off"
-        />
-        <div class="examples" id="examples"></div>
-      </div>
-
-      <div class="filters">
-        <label class="toggle">
-          <input type="checkbox" id="aiOnly" checked />
-          <span>AI only</span>
-        </label>
-        <select id="category" aria-label="Category filter"></select>
-        <select id="month" aria-label="Month filter"></select>
-        <select id="sort" aria-label="Sort">
-          <option value="score">Sort: Confidence ↓</option>
-          <option value="date">Sort: Formation date ↓</option>
-          <option value="name">Sort: Name A→Z</option>
-        </select>
-        <label class="slider">
-          Min confidence <b id="minScoreLabel">0%</b>
-          <input type="range" id="minScore" min="0" max="100" value="0" />
-        </label>
-      </div>
+    <!-- WATCHLIST TAB -->
+    <section class="tabpanel" id="panel-watch" hidden>
+      <div id="watchlist" class="groups"></div>
+      <div id="watchEmpty" class="empty">Your watchlist is empty. Click ★ on any company to save it here.</div>
     </section>
-
-    <div class="resultmeta" id="resultMeta"></div>
-
-    <!-- Company groups -->
-    <section id="groups" class="groups"></section>
-    <div id="empty" class="empty" hidden>No companies match these filters.</div>
   </main>
 
-  <!-- Memo drawer -->
+  <!-- Analysis drawer -->
   <div class="drawer-overlay" id="drawerOverlay" hidden></div>
-  <aside class="drawer" id="drawer" hidden aria-label="Investment memo"></aside>
+  <aside class="drawer" id="drawer" hidden aria-label="Investment analysis"></aside>
 
   <footer class="footer">
-    <span>Static dashboard · data precomputed by the Python scout agent · deploy on GitHub Pages.</span>
+    <span>Every company verified via SEC EDGAR · data precomputed by an autonomous Python agent · auto-refreshed weekly on GitHub Actions.</span>
+    <span class="foot-links">
+      <a href="https://github.com/SpencerBrown1717/Venture_Discovery_02" target="_blank" rel="noopener">SOURCE</a>
+      <a href="https://github.com/SpencerBrown1717/Venture_Discovery_02#readme" target="_blank" rel="noopener">README</a>
+    </span>
   </footer>
 
   <script src="app.js"></script>

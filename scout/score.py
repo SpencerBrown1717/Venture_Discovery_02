@@ -73,8 +73,28 @@ class ScoringAgent:
         desc = company.description or ""
         n_strong = sum(1 for s in company.ai_signals if "(name)" in s or "(description)" in s)
 
-        # --- team quality: from discovered founder pedigree, else proxy ---
-        if company.founders:
+        # --- team quality ---
+        real = [f for f in (company.founders or []) if f.get("source") == "sec_filing"]
+        raw = company.raw or {}
+        raised = raw.get("amount_sold") or raw.get("offering_amount") or 0
+        if real:
+            # Real officers/directors from the SEC filing: team strength from
+            # team size, board formation, and capital already raised.
+            n_officers = sum(1 for f in real if "Officer" in (f.get("role") or ""))
+            n_directors = sum(1 for f in real if "Director" in (f.get("role") or ""))
+            base = 58 + 5 * min(n_officers, 3) + 3 * min(n_directors, 4)
+            if raised >= 10_000_000:
+                base += 14
+            elif raised >= 3_000_000:
+                base += 9
+            elif raised > 0:
+                base += 4
+            team = base + _jitter(cid, "team", 4)
+            team_reason = (
+                f"{len(real)} named officer(s)/director(s) in SEC filing"
+                + (f"; ${raised:,} raised" if raised else "")
+            )
+        elif company.founders:
             ped = sum(f.get("pedigree", 50) for f in company.founders) / len(company.founders)
             team = ped + _jitter(cid, "team", 5)
             team_reason = (

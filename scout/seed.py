@@ -33,17 +33,61 @@ def _to_record(company) -> dict:
     }
 
 
-def harvest(*, days_back: int = 45, limit: int = 120, query: str = "") -> list[dict]:
-    """Pull real DE-incorporated firms from EDGAR.
+def _enrich(rec: dict) -> dict:
+    """Attach real Form D details (officers, stage, capital, industry).
 
-    Runs an AI-biased pass first (so the dataset is rich with AI startups), then
-    a general pass to fill remaining slots with other recent DE incorporations —
-    realistic noise that exercises the classifier.
+    Returns the record annotated with `founders`, `stage`, and an enriched
+    `raw`; sets `raw['is_fund']` so callers can drop pooled investment vehicles.
+    """
+    from .edgar_detail import fetch_form_d_detail
+
+    raw = rec.get("raw") or {}
+    detail = fetch_form_d_detail(
+        str(raw.get("cik") or ""),
+        str(raw.get("accession") or ""),
+        rec.get("name", ""),
+    )
+    if not detail:
+        return rec
+
+    rec["founders"] = detail["related_persons"]
+    rec["stage"] = detail["stage"]
+    raw.update({
+        "industry_group": detail["industry_group"],
+        "is_fund": detail["is_fund"],
+        "offering_amount": detail["offering_amount"],
+        "amount_sold": detail["amount_sold"],
+        "revenue_range": detail["revenue_range"],
+        "filing_url": detail["filing_url"],
+        "stage": detail["stage"],
+    })
+    rec["raw"] = raw
+    # Enrich the description with the real capital signal when present.
+    raised = detail["amount_sold"] or detail["offering_amount"]
+    if raised:
+        rec["description"] = (
+            f"{rec.get('description', '').rstrip('.')}. "
+            f"Form D reports ${raised:,} {'raised' if detail['amount_sold'] else 'offering'} "
+            f"({detail['stage']})."
+        )
+    return rec
+
+
+def harvest(*, days_back: int = 45, limit: int = 120, query: str = "",
+            include_funds: bool = False) -> list[dict]:
+    """Pull real, *operating* DE-incorporated firms from EDGAR.
+
+    1. Discover candidates (AI-biased pass + general fill) via the EDGAR DE feed.
+    2. Enrich each with its real Form D details (officers, stage, capital).
+    3. Drop pooled investment funds / SPVs by default so the dataset is real
+       operating companies caught near formation — what a VC actually wants.
     """
     from .sources.delaware import DelawareSource
 
-    records: list[dict] = []
+    candidates: list[dict] = []
     seen: set[str] = set()
+    # Over-fetch: many hits are funds we'll filter out.
+    pool = max(limit * 3, 90)
 
     def collect(src_query: str, cap: int) -> None:
         if cap <= 0:
@@ -54,17 +98,25 @@ def harvest(*, days_back: int = 45, limit: int = 120, query: str = "") -> list[d
             if key in seen:
                 continue
             seen.add(key)
-            records.append(_to_record(company))
+            candidates.append(_to_record(company))
 
     if query:
-        collect(query, limit)
+        collect(query, pool)
     else:
-        ai_cap = max(1, int(limit * 0.6))
-        collect(AI_QUERY, ai_cap)
-        collect("", limit - len(records))
+        collect(AI_QUERY, int(pool * 0.7))
+        collect("", pool - len(candidates))
 
-    records.sort(key=lambda r: r.get("formation_date") or "", reverse=True)
-    return records[:limit]
+    kept: list[dict] = []
+    for rec in candidates:
+        rec = _enrich(rec)
+        if not include_funds and (rec.get("raw") or {}).get("is_fund"):
+            continue
+        kept.append(rec)
+        if len(kept) >= limit:
+            break
+
+    kept.sort(key=lambda r: r.get("formation_date") or "", reverse=True)
+    return kept
 
 
 def write(

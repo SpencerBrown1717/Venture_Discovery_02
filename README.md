@@ -185,6 +185,7 @@ scout/
 ├── seed.py              # deterministic sample-dataset generator
 ├── score.py             # opportunity scoring engine (stretch 4)
 ├── founders.py          # founder discovery agent (stretch 2)
+├── edgar_detail.py      # real officers/stage/capital from Form D XML
 ├── competitive.py       # competitive landscape generator (stretch 5)
 ├── recommend.py         # reporting agent: final recommendation (stretch 3)
 ├── sources/             # pluggable data-source connectors
@@ -238,9 +239,11 @@ runs (orchestrated in `pipeline.py`):
   (dependency-free HTML→text), estimates market & stage, and drafts a memo:
   one-liner, thesis, reasoning, market read, risks. Degrades *LLM prose →
   site-enriched heuristic → metadata-only heuristic*; always produces a memo.
-- **Founder** (`founders.py`) emits structured founder profiles. With `--llm`
-  and fetched site text it extracts named people; otherwise it generates clearly
-  **labeled synthetic** profiles so the product is fully demonstrable offline.
+- **Founder** (`founders.py` + `edgar_detail.py`) prefers the **real officers and
+  directors named in the company's SEC Form D filing** (`"source": "sec_filing"`) —
+  actual people, with role, city/state, and a LinkedIn people-search link. When a
+  filing has no named people it falls back to LLM website extraction (`--llm`) or
+  clearly **labeled synthetic** profiles, so the product is always demonstrable.
 - **Scoring** (`score.py`) produces six explainable 0–100 sub-scores (team,
   market, differentiation, technical, defensibility, timing) blending category
   priors, company evidence, and a deterministic per-company variation, plus an
@@ -296,15 +299,17 @@ intent onto the existing filter controls — no backend required.
   Formation dates and jurisdictions are illustrative so the pipeline runs
   offline; live `sec_edgar` pulls real filings. Non-AI noise records omit
   websites (typical for early local formations).
-- **Form D ≠ all new companies.** EDGAR Form D captures entities raising exempt
-  securities; it misses companies that haven't raised, and includes some funds
-  /SPVs. It's a high-signal *slice*, not full incorporation coverage. Adding a
-  state-registry or Companies House connector would broaden the funnel.
-- **Founder profiles are synthetic by default.** Reliable founder data for
-  brand-new companies requires paid people-data APIs (PeopleDataLabs, Clearbit,
-  LinkedIn). The default agent generates clearly-labeled illustrative profiles
-  (every profile carries `"source": "synthetic"`); the `--llm` path extracts
-  real names from website text when available. Nothing is presented as verified.
+- **Form D ≠ all new companies — and skews to hardware/robotics.** EDGAR Form D
+  captures entities raising *priced/exempt* rounds. Many AI **software** startups
+  raise on SAFEs (no Form D), so the operating-company slice that surfaces skews
+  toward robotics/hardware (which file Form D for priced rounds). We drop pooled
+  funds/SPVs to keep real operating companies. It's a high-signal *slice*, not
+  full incorporation coverage; a state-registry connector would broaden the funnel.
+- **Founders are real when the filing names them.** Officers/directors come
+  straight from the SEC Form D (`"source": "sec_filing"`) with a LinkedIn
+  people-search link to reach the actual person. Only when a filing lists no
+  individuals do we fall back to LLM extraction or clearly-labeled synthetic
+  profiles — and the source is always shown, so nothing masquerades as verified.
 - **Opportunity scores are heuristic/illustrative.** They blend category priors
   with available evidence and a deterministic per-company variation — a
   defensible, auditable scaffold, not a calibrated model. They're meant to show

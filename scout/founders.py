@@ -68,6 +68,9 @@ class FounderAgent:
                 self._client = None
 
     def discover(self, company: Company, site_text: str = "") -> Company:
+        # Prefer REAL officers/directors already extracted from the SEC filing.
+        if any(f.get("source") == "sec_filing" for f in (company.founders or [])):
+            return company
         if self._client is not None and site_text:
             founders = self._llm_extract(company, site_text)
             if founders:

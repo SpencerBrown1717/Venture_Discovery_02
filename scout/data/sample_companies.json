@@ -1,493 +1,11 @@
 [
   {
-    "name": "1X Robotics Mar 2026 a Series of CGF2021 LLC",
-    "source": "delaware",
-    "source_id": "0002128719",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-28",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002128719",
-      "accession": "0002128719-26-000001:primary_doc.xml",
-      "file_date": "2026-05-28",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "DE"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002128719&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "MLG Legacy Fund LLC",
-    "source": "delaware",
-    "source_id": "0001815515",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-28",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0001815515",
-      "accession": "0001815515-26-000002:primary_doc.xml",
-      "file_date": "2026-05-28",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "WI"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001815515&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Heitman Construction Finance, L.P.",
-    "source": "delaware",
-    "source_id": "0002125517",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-28",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002125517",
-      "accession": "0002125517-26-000001:primary_doc.xml",
-      "file_date": "2026-05-28",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "IL"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002125517&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Artificial Intelligence Progress Research, LP",
-    "source": "delaware",
-    "source_id": "0002133240",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-26",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002133240",
-      "accession": "0002133240-26-000002:primary_doc.xml",
-      "file_date": "2026-05-26",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002133240&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Slip Robotics May 2026 a Series of CGF2021 LLC",
-    "source": "delaware",
-    "source_id": "0002134577",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-22",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002134577",
-      "accession": "0002134577-26-000001:primary_doc.xml",
-      "file_date": "2026-05-22",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "DE"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134577&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Equitybee 22-94711, a Series of Equitybee cFund Master LLC",
-    "source": "delaware",
-    "source_id": "0002025841",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-21",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002025841",
-      "accession": "0002025841-26-000003:primary_doc.xml",
-      "file_date": "2026-05-21",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "UT"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002025841&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Equitybee 22-11976, a Series of Equitybee cFund Master LLC",
-    "source": "delaware",
-    "source_id": "0002018587",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-21",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002018587",
-      "accession": "0002018587-26-000002:primary_doc.xml",
-      "file_date": "2026-05-21",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "UT"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002018587&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Equitybee 22-47140, a Series of Equitybee cFund Master LLC",
-    "source": "delaware",
-    "source_id": "0002077288",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-21",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002077288",
-      "accession": "0002077288-26-000001:primary_doc.xml",
-      "file_date": "2026-05-21",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "CA"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002077288&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Equitybee 22-81541 a Series of Equitybee cFund Master LLC",
-    "source": "delaware",
-    "source_id": "0002120674",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-21",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002120674",
-      "accession": "0002120674-26-000004:primary_doc.xml",
-      "file_date": "2026-05-21",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "CA"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002120674&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "EquityZen Growth Technology Fund LLC - Series 2307",
-    "source": "delaware",
-    "source_id": "0002129075",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-21",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002129075",
-      "accession": "0002129075-26-000001:primary_doc.xml",
-      "file_date": "2026-05-21",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002129075&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "OT Robotics Fund I, LLC",
-    "source": "delaware",
-    "source_id": "0002113578",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-20",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002113578",
-      "accession": "0002113578-26-000001:primary_doc.xml",
-      "file_date": "2026-05-20",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "MA"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002113578&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Blackstone Infrastructure Partners F.2 L.P.",
-    "source": "delaware",
-    "source_id": "0001735627",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-20",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0001735627",
-      "accession": "0001735627-26-000002:primary_doc.xml",
-      "file_date": "2026-05-20",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001735627&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Blackstone Infrastructure Partners F.1 L.P.",
-    "source": "delaware",
-    "source_id": "0001735629",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-20",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0001735629",
-      "accession": "0001735629-26-000002:primary_doc.xml",
-      "file_date": "2026-05-20",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001735629&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "SP Goal-Line Growth Fund, LP",
-    "source": "delaware",
-    "source_id": "0002025913",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-20",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002025913",
-      "accession": "0000935836-26-000293:primary_doc.xml",
-      "file_date": "2026-05-20",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "CA"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002025913&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "EquityZen Growth Technology Fund LLC - Series 2231",
-    "source": "delaware",
-    "source_id": "0002100614",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-20",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002100614",
-      "accession": "0002100614-26-000001:primary_doc.xml",
-      "file_date": "2026-05-20",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002100614&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "BR Diversified Industrial Portfolio 6, DST",
-    "source": "delaware",
-    "source_id": "0002084268",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-19",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002084268",
-      "accession": "0002084268-26-000001:primary_doc.xml",
-      "file_date": "2026-05-19",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002084268&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "HPI Farmhouse DST",
-    "source": "delaware",
-    "source_id": "0002107632",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-19",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002107632",
-      "accession": "0002107632-26-000007:primary_doc.xml",
-      "file_date": "2026-05-19",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "CT"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002107632&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "NexPoint Small Bay III DST",
-    "source": "delaware",
-    "source_id": "0002094145",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-19",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002094145",
-      "accession": "0002094145-26-000010:primary_doc.xml",
-      "file_date": "2026-05-19",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "TX"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002094145&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Eclipse SPV XXXII, L.P.",
-    "source": "delaware",
-    "source_id": "0002129852",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-18",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002129852",
-      "accession": "0002129852-26-000001:primary_doc.xml",
-      "file_date": "2026-05-18",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "CA"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002129852&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Allied Innovation Artificial Intelligence Fund, LLC",
-    "source": "delaware",
-    "source_id": "0002021379",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-15",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002021379",
-      "accession": "0002021379-26-000001:primary_doc.xml",
-      "file_date": "2026-05-15",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002021379&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "CAMPBELL FUND TRUST",
-    "source": "delaware",
-    "source_id": "0001043951",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-15",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0001043951",
-      "accession": "0001043951-26-000001:primary_doc.xml",
-      "file_date": "2026-05-15",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "MD"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001043951&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Obra Insurance Fund, LP",
-    "source": "delaware",
-    "source_id": "0001493418",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-14",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0001493418",
-      "accession": "0001493418-26-000004:primary_doc.xml",
-      "file_date": "2026-05-14",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "TX"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001493418&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
     "name": "Dwight Mortgage Trust LLC",
     "source": "delaware",
     "source_id": "0001729201",
     "jurisdiction": "Delaware, USA",
     "formation_date": "2026-05-14",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $505,154,120 raised (Growth).",
     "raw": {
       "cik": "0001729201",
       "accession": "0001013594-26-000580:primary_doc.xml",
@@ -500,162 +18,32 @@
         "NY"
       ],
       "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001729201&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Hotai Securities Inc",
-    "source": "delaware",
-    "source_id": "0002135153",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-14",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002135153",
-      "accession": "0002135153-26-000001:primary_doc.xml",
-      "file_date": "2026-05-14",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "DE"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002135153&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Summit Street US Equity Value Fund, L.P.",
-    "source": "delaware",
-    "source_id": "0001470484",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-14",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0001470484",
-      "accession": "0001470484-26-000001:primary_doc.xml",
-      "file_date": "2026-05-14",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001470484&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Luminous Robotics Inc Apr 2026 a Series of CGF2021 LLC",
-    "source": "delaware",
-    "source_id": "0002131102",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-13",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002131102",
-      "accession": "0002131102-26-000001:primary_doc.xml",
-      "file_date": "2026-05-13",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "DE"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002131102&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "PALO ALTO CAPITAL ROBOTICS 2 L.P.",
-    "source": "delaware",
-    "source_id": "0002134520",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-12",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002134520",
-      "accession": "0002134520-26-000001:primary_doc.xml",
-      "file_date": "2026-05-12",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "CA"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134520&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "PALO ALTO CAPITAL ROBOTICS 1 L.P.",
-    "source": "delaware",
-    "source_id": "0002117874",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-12",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002117874",
-      "accession": "0002117874-26-000001:primary_doc.xml",
-      "file_date": "2026-05-12",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "CA"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002117874&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "EquityZen Growth Technology Fund LLC - Series 2277",
-    "source": "delaware",
-    "source_id": "0002122287",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-12",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002122287",
-      "accession": "0002122287-26-000001:primary_doc.xml",
-      "file_date": "2026-05-12",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002122287&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Tribe Capital Autonomous Fund I, L.P.",
-    "source": "delaware",
-    "source_id": "0002134101",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-11",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002134101",
-      "accession": "0002134101-26-000001:primary_doc.xml",
-      "file_date": "2026-05-11",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "CA"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134101&type=D",
-      "registry": "SEC EDGAR"
-    }
+      "registry": "SEC EDGAR",
+      "industry_group": "REITS and Finance",
+      "is_fund": false,
+      "offering_amount": null,
+      "amount_sold": 505154120,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1729201/000101359426000580/primary_doc.xml",
+      "stage": "Growth"
+    },
+    "founders": [
+      {
+        "name": "Adam Sasouness",
+        "role": "Executive Officer",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Adam%20Sasouness%20Dwight%20Mortgage%20Trust%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Joshua Sasouness",
+        "role": "Executive Officer",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Joshua%20Sasouness%20Dwight%20Mortgage%20Trust%20LLC",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Growth"
   },
   {
     "name": "Pentra Robotics, inc.",
@@ -663,7 +51,7 @@
     "source_id": "0002134129",
     "jurisdiction": "Delaware, USA",
     "formation_date": "2026-05-07",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $100,000 raised (Pre-seed).",
     "raw": {
       "cik": "0002134129",
       "accession": "0002134129-26-000001:primary_doc.xml",
@@ -676,188 +64,25 @@
         "CA"
       ],
       "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002134129&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "RGP Income Fund II, LP",
-    "source": "delaware",
-    "source_id": "0002063453",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-06",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002063453",
-      "accession": "0002063453-26-000005:primary_doc.xml",
-      "file_date": "2026-05-06",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "TX"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002063453&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Chicago Atlantic Credit Opportunities III, LP",
-    "source": "delaware",
-    "source_id": "0001989339",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-06",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0001989339",
-      "accession": "0001989339-26-000001:primary_doc.xml",
-      "file_date": "2026-05-06",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "FL"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001989339&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "EquityZen Growth Technology Fund LLC - Series 2283",
-    "source": "delaware",
-    "source_id": "0002122281",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-06",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002122281",
-      "accession": "0002122281-26-000001:primary_doc.xml",
-      "file_date": "2026-05-06",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002122281&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Sound Point Discovery Fund LLC",
-    "source": "delaware",
-    "source_id": "0001674820",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-05",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0001674820",
-      "accession": "0001674820-26-000001:primary_doc.xml",
-      "file_date": "2026-05-05",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001674820&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "EquityZen Growth Technology Fund LLC - Series 2309",
-    "source": "delaware",
-    "source_id": "0002129073",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-05",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002129073",
-      "accession": "0002129073-26-000001:primary_doc.xml",
-      "file_date": "2026-05-05",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002129073&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "AUA Private Equity Fund III, LP",
-    "source": "delaware",
-    "source_id": "0002027690",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-01",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002027690",
-      "accession": "0002027690-26-000001:primary_doc.xml",
-      "file_date": "2026-05-01",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE",
-        "DE",
-        "DE",
-        "DE",
-        "DE"
-      ],
-      "biz_states": [
-        "FL"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002027690&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "EquityZen Growth Technology Fund LLC - Series 2235",
-    "source": "delaware",
-    "source_id": "0002105410",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-01",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002105410",
-      "accession": "0002105410-26-000002:primary_doc.xml",
-      "file_date": "2026-05-01",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002105410&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "EquityZen Growth Technology Fund LLC - Series 2230",
-    "source": "delaware",
-    "source_id": "0002100615",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-05-01",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002100615",
-      "accession": "0002100615-26-000002:primary_doc.xml",
-      "file_date": "2026-05-01",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002100615&type=D",
-      "registry": "SEC EDGAR"
-    }
+      "registry": "SEC EDGAR",
+      "industry_group": "Computers",
+      "is_fund": false,
+      "offering_amount": 100000,
+      "amount_sold": 100000,
+      "revenue_range": "No Revenues",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2134129/000213412926000001/primary_doc.xml",
+      "stage": "Pre-seed"
+    },
+    "founders": [
+      {
+        "name": "Lin HaoChih",
+        "role": "Executive Officer, Director",
+        "location": "Mountain View, CA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Lin%20HaoChih%20Pentra%20Robotics%2C%20inc.",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Pre-seed"
   },
   {
     "name": "Luminous Robotics, Inc.",
@@ -865,7 +90,7 @@
     "source_id": "0002080868",
     "jurisdiction": "Delaware, USA",
     "formation_date": "2026-04-30",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $1,280,000 raised (Pre-seed).",
     "raw": {
       "cik": "0002080868",
       "accession": "0002080868-26-000001:primary_doc.xml",
@@ -878,184 +103,39 @@
         "MA"
       ],
       "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002080868&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Fort Washington Private Equity Small Market Investors III-K, L.P.",
-    "source": "delaware",
-    "source_id": "0002132025",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-29",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002132025",
-      "accession": "0002132025-26-000001:primary_doc.xml",
-      "file_date": "2026-04-29",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "OH"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002132025&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Fort Washington Private Equity Small Market Investors III, L.P.",
-    "source": "delaware",
-    "source_id": "0002131982",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-29",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002131982",
-      "accession": "0002131982-26-000002:primary_doc.xml",
-      "file_date": "2026-04-29",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "OH"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002131982&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Fort Washington Private Equity Small Market Investors III-B, L.P.",
-    "source": "delaware",
-    "source_id": "0002132029",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-29",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002132029",
-      "accession": "0002132029-26-000001:primary_doc.xml",
-      "file_date": "2026-04-29",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "OH"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002132029&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "WESTERN ASSET OPPORTUNISTIC STRUCTURED SECURITIES PORTFOLIO, L.L.C.",
-    "source": "delaware",
-    "source_id": "0001410966",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-29",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0001410966",
-      "accession": "0001410966-26-000001:primary_doc.xml",
-      "file_date": "2026-04-29",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "CA"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001410966&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "WESTERN ASSET MORTGAGE BACKED SECURITIES PORTFOLIO, L.L.C.",
-    "source": "delaware",
-    "source_id": "0001459359",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-29",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0001459359",
-      "accession": "0001459359-26-000001:primary_doc.xml",
-      "file_date": "2026-04-29",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "CA"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001459359&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "WESTERN ASSET EMERGING MARKETS LOCAL DEBT PORTFOLIO, L.L.C.",
-    "source": "delaware",
-    "source_id": "0001385121",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-29",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0001385121",
-      "accession": "0001385121-26-000001:primary_doc.xml",
-      "file_date": "2026-04-29",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "CA"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001385121&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "EquityZen Growth Technology Fund II LLC - Series 33",
-    "source": "delaware",
-    "source_id": "0002079794",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-29",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002079794",
-      "accession": "0002079794-26-000001:primary_doc.xml",
-      "file_date": "2026-04-29",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002079794&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "EquityZen Growth Technology Fund LLC - Series 2241",
-    "source": "delaware",
-    "source_id": "0002100695",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-29",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002100695",
-      "accession": "0002100695-26-000002:primary_doc.xml",
-      "file_date": "2026-04-29",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002100695&type=D",
-      "registry": "SEC EDGAR"
-    }
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Technology",
+      "is_fund": false,
+      "offering_amount": 2000000,
+      "amount_sold": 1280000,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2080868/000208086826000001/primary_doc.xml",
+      "stage": "Pre-seed"
+    },
+    "founders": [
+      {
+        "name": "Jayming Wong",
+        "role": "Executive Officer, Director",
+        "location": "Boston, MA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Jayming%20Wong%20Luminous%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Robert Boyd Jr.",
+        "role": "Director",
+        "location": "Boston, MA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Robert%20Boyd%20Jr.%20Luminous%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Brandon Moak",
+        "role": "Director",
+        "location": "Boston, MA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Brandon%20Moak%20Luminous%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Pre-seed"
   },
   {
     "name": "474 Holdco LLC",
@@ -1063,7 +143,7 @@
     "source_id": "0002131060",
     "jurisdiction": "Delaware, USA",
     "formation_date": "2026-04-28",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $1,235,000 raised (Pre-seed).",
     "raw": {
       "cik": "0002131060",
       "accession": "0002131060-26-000002:primary_doc.xml",
@@ -1076,30 +156,46 @@
         "FL"
       ],
       "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002131060&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "NexPoint Oasis DST",
-    "source": "delaware",
-    "source_id": "0002098911",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-28",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002098911",
-      "accession": "0002098911-26-000008:primary_doc.xml",
-      "file_date": "2026-04-28",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "TX"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002098911&type=D",
-      "registry": "SEC EDGAR"
-    }
+      "registry": "SEC EDGAR",
+      "industry_group": "Restaurants",
+      "is_fund": false,
+      "offering_amount": 8000000,
+      "amount_sold": 1235000,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2131060/000213106026000002/primary_doc.xml",
+      "stage": "Pre-seed"
+    },
+    "founders": [
+      {
+        "name": "Edward Grace IV",
+        "role": "Director",
+        "location": "West Palm Beach, FL",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Edward%20Grace%20IV%20474%20Holdco%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Samuel Grace",
+        "role": "Director",
+        "location": "West Palm Beach, FL",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Samuel%20Grace%20474%20Holdco%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Alex Melillo",
+        "role": "Director",
+        "location": "West Palm Beach, FL",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Alex%20Melillo%20474%20Holdco%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Joseph Cervasio",
+        "role": "Director",
+        "location": "Wellington, FL",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Joseph%20Cervasio%20474%20Holdco%20LLC",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Pre-seed"
   },
   {
     "name": "JWCM Vivian, DST",
@@ -1107,7 +203,7 @@
     "source_id": "0002087350",
     "jurisdiction": "Delaware, USA",
     "formation_date": "2026-04-27",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $11,407,329 raised (Series A).",
     "raw": {
       "cik": "0002087350",
       "accession": "0002087350-26-000008:primary_doc.xml",
@@ -1120,140 +216,25 @@
         "NY"
       ],
       "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002087350&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Equitybee 22-36657, a Series of Equitybee cFund Master LLC",
-    "source": "delaware",
-    "source_id": "0001955868",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-27",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0001955868",
-      "accession": "0001955868-26-000002:primary_doc.xml",
-      "file_date": "2026-04-27",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "UT"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001955868&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Belhurst Capital Fund LLC",
-    "source": "delaware",
-    "source_id": "0001886309",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-24",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0001886309",
-      "accession": "0000945621-26-000601:primary_doc.xml",
-      "file_date": "2026-04-24",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "MA"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001886309&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "InvestX Series (OPN-U5 QP), a Series of InvestX Master LLC",
-    "source": "delaware",
-    "source_id": "0002127035",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-24",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002127035",
-      "accession": "0002127035-26-000001:primary_doc.xml",
-      "file_date": "2026-04-24",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002127035&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "InvestX Series (OPN-U5), a Series of InvestX Master LLC",
-    "source": "delaware",
-    "source_id": "0002127034",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-24",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002127034",
-      "accession": "0002127034-26-000001:primary_doc.xml",
-      "file_date": "2026-04-24",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002127034&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Life Biosciences LLC",
-    "source": "delaware",
-    "source_id": "0001751806",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-24",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0001751806",
-      "accession": "0001751806-26-000003:primary_doc.xml",
-      "file_date": "2026-04-24",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "MA"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001751806&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Catalio Structured Opportunities Fund II, LP",
-    "source": "delaware",
-    "source_id": "0002004375",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-24",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002004375",
-      "accession": "0002062357-26-000108:primary_doc.xml",
-      "file_date": "2026-04-24",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002004375&type=D",
-      "registry": "SEC EDGAR"
-    }
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Real Estate",
+      "is_fund": false,
+      "offering_amount": 46170900,
+      "amount_sold": 11407329,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2087350/000208735026000008/primary_doc.xml",
+      "stage": "Series A"
+    },
+    "founders": [
+      {
+        "name": "Jason Warsavsky",
+        "role": "Executive Officer",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Jason%20Warsavsky%20JWCM%20Vivian%2C%20DST",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Series A"
   },
   {
     "name": "BV Ernest Health Neuro Rehab DST",
@@ -1261,7 +242,7 @@
     "source_id": "0002067406",
     "jurisdiction": "Delaware, USA",
     "formation_date": "2026-04-22",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $35,620,141 raised (Series B).",
     "raw": {
       "cik": "0002067406",
       "accession": "0002067406-26-000001:primary_doc.xml",
@@ -1274,74 +255,25 @@
         "TX"
       ],
       "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067406&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Griffin Capital (Union - Kansas City, MO) DST",
-    "source": "delaware",
-    "source_id": "0002104228",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-22",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002104228",
-      "accession": "0002104228-26-000007:primary_doc.xml",
-      "file_date": "2026-04-22",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "CA"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002104228&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Cosmos Fund LLC",
-    "source": "delaware",
-    "source_id": "0002026199",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-22",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002026199",
-      "accession": "0002026199-26-000005:primary_doc.xml",
-      "file_date": "2026-04-22",
-      "file_type": "D",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "FL"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002026199&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "Artificial Intelligence Trading, L.P.",
-    "source": "delaware",
-    "source_id": "0002083074",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-21",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002083074",
-      "accession": "0002083074-26-000003:primary_doc.xml",
-      "file_date": "2026-04-21",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002083074&type=D",
-      "registry": "SEC EDGAR"
-    }
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Real Estate",
+      "is_fund": false,
+      "offering_amount": 77667582,
+      "amount_sold": 35620141,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2067406/000206740626000001/primary_doc.xml",
+      "stage": "Series B"
+    },
+    "founders": [
+      {
+        "name": "Steven May",
+        "role": "Executive Officer",
+        "location": "Dallas, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Steven%20May%20BV%20Ernest%20Health%20Neuro%20Rehab%20DST",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Series B"
   },
   {
     "name": "Loki Robotics, Inc.",
@@ -1349,7 +281,7 @@
     "source_id": "0002130373",
     "jurisdiction": "Delaware, USA",
     "formation_date": "2026-04-21",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $11,824,995 raised (Series A).",
     "raw": {
       "cik": "0002130373",
       "accession": "0002130373-26-000001:primary_doc.xml",
@@ -1362,8 +294,39 @@
         "DE"
       ],
       "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002130373&type=D",
-      "registry": "SEC EDGAR"
-    }
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Technology",
+      "is_fund": false,
+      "offering_amount": 11824995,
+      "amount_sold": 11824995,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2130373/000213037326000001/primary_doc.xml",
+      "stage": "Series A"
+    },
+    "founders": [
+      {
+        "name": "Miks Ozols",
+        "role": "Executive Officer, Director",
+        "location": "Dover, DE",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Miks%20Ozols%20Loki%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Antonio Arbues",
+        "role": "Executive Officer, Director",
+        "location": "Dover, DE",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Antonio%20Arbues%20Loki%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Yair Reem",
+        "role": "Director",
+        "location": "Dover, DE",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Yair%20Reem%20Loki%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Series A"
   },
   {
     "name": "Autonomous Cyber, Inc.",
@@ -1371,7 +334,7 @@
     "source_id": "0002065345",
     "jurisdiction": "Delaware, USA",
     "formation_date": "2026-04-21",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $2,550,000 raised (Seed).",
     "raw": {
       "cik": "0002065345",
       "accession": "0002065345-26-000001:primary_doc.xml",
@@ -1384,8 +347,39 @@
         "CA"
       ],
       "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002065345&type=D",
-      "registry": "SEC EDGAR"
-    }
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Technology",
+      "is_fund": false,
+      "offering_amount": 6000000,
+      "amount_sold": 2550000,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2065345/000206534526000001/primary_doc.xml",
+      "stage": "Seed"
+    },
+    "founders": [
+      {
+        "name": "James O'Brien",
+        "role": "Executive Officer, Director",
+        "location": "Sacramento, CA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=James%20O%27Brien%20Autonomous%20Cyber%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Bohdan Volyanyuk",
+        "role": "Executive Officer, Director",
+        "location": "Wilmington, DE",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Bohdan%20Volyanyuk%20Autonomous%20Cyber%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Elias Manousos",
+        "role": "Director",
+        "location": "Wilmington, DE",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Elias%20Manousos%20Autonomous%20Cyber%2C%20Inc.",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Seed"
   },
   {
     "name": "Starwood Multifamily Portfolio Exchange I, D.S.T.",
@@ -1393,7 +387,7 @@
     "source_id": "0002019884",
     "jurisdiction": "Delaware, USA",
     "formation_date": "2026-04-21",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $66,229,560 raised (Series B).",
     "raw": {
       "cik": "0002019884",
       "accession": "0002019884-26-000004:primary_doc.xml",
@@ -1406,64 +400,37 @@
         "FL"
       ],
       "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002019884&type=D",
-      "registry": "SEC EDGAR"
-    }
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Real Estate",
+      "is_fund": false,
+      "offering_amount": 124086520,
+      "amount_sold": 66229560,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2019884/000201988426000004/primary_doc.xml",
+      "stage": "Series B"
+    },
+    "founders": [
+      {
+        "name": "Nora Creedon",
+        "role": "Executive Officer",
+        "location": "Miami Beach, FL",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Nora%20Creedon%20Starwood%20Multifamily%20Portfolio%20Exchange%20I%2C%20D.S.T.",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Series B"
   },
   {
-    "name": "AG Realty Value Fund XI, L.P.",
+    "name": "GUGGENHEIM SECURITIES, LLC",
     "source": "delaware",
-    "source_id": "0001922070",
+    "source_id": "0001009953",
     "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-17",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
+    "formation_date": "2026-04-15",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $13,200,000 raised (Series A).",
     "raw": {
-      "cik": "0001922070",
-      "accession": "0001922070-26-000001:primary_doc.xml",
-      "file_date": "2026-04-17",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001922070&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "AG Realty Value Fund XI (A), L.P.",
-    "source": "delaware",
-    "source_id": "0001921515",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-17",
-    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0001921515",
-      "accession": "0001921515-26-000001:primary_doc.xml",
-      "file_date": "2026-04-17",
-      "file_type": "D/A",
-      "inc_states": [
-        "DE"
-      ],
-      "biz_states": [
-        "NY"
-      ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001921515&type=D",
-      "registry": "SEC EDGAR"
-    }
-  },
-  {
-    "name": "EquityZen Growth Technology Fund LLC - Series 2298",
-    "source": "delaware",
-    "source_id": "0002122266",
-    "jurisdiction": "Delaware, USA",
-    "formation_date": "2026-04-17",
-    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering).",
-    "raw": {
-      "cik": "0002122266",
-      "accession": "0002122266-26-000001:primary_doc.xml",
-      "file_date": "2026-04-17",
+      "cik": "0001009953",
+      "accession": "0000929638-26-001510:primary_doc.xml",
+      "file_date": "2026-04-15",
       "file_type": "D",
       "inc_states": [
         "DE"
@@ -1471,8 +438,1734 @@
       "biz_states": [
         "NY"
       ],
-      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002122266&type=D",
-      "registry": "SEC EDGAR"
-    }
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001009953&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Investment Banking",
+      "is_fund": false,
+      "offering_amount": null,
+      "amount_sold": 13200000,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1009953/000092963826001510/primary_doc.xml",
+      "stage": "Series A"
+    },
+    "founders": [
+      {
+        "name": "Tracy Lowery Whille",
+        "role": "Executive Officer",
+        "location": "NEW YORK, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Tracy%20Lowery%20Whille%20GUGGENHEIM%20SECURITIES%2C%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "James Millstein",
+        "role": "Executive Officer",
+        "location": "NEW YORK, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=James%20Millstein%20GUGGENHEIM%20SECURITIES%2C%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Alan Schwartz",
+        "role": "Executive Officer",
+        "location": "NEW YORK, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Alan%20Schwartz%20GUGGENHEIM%20SECURITIES%2C%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Andrew Schwartz",
+        "role": "Executive Officer",
+        "location": "NEW YORK, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Andrew%20Schwartz%20GUGGENHEIM%20SECURITIES%2C%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Kristine Sirna",
+        "role": "Executive Officer",
+        "location": "NEW YORK, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Kristine%20Sirna%20GUGGENHEIM%20SECURITIES%2C%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Susan Tsou",
+        "role": "Executive Officer",
+        "location": "NEW YORK, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Susan%20Tsou%20GUGGENHEIM%20SECURITIES%2C%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Mark Van Lith",
+        "role": "Executive Officer",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Mark%20Van%20Lith%20GUGGENHEIM%20SECURITIES%2C%20LLC",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Series A"
+  },
+  {
+    "name": "Feather Robotics Inc.",
+    "source": "delaware",
+    "source_id": "0002128909",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-13",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $6,015,385 raised (Series A).",
+    "raw": {
+      "cik": "0002128909",
+      "accession": "0002128909-26-000001:primary_doc.xml",
+      "file_date": "2026-04-13",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "CA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002128909&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Technology",
+      "is_fund": false,
+      "offering_amount": 6015385,
+      "amount_sold": 6015385,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2128909/000212890926000001/primary_doc.xml",
+      "stage": "Series A"
+    },
+    "founders": [
+      {
+        "name": "Hoa Mai",
+        "role": "Executive Officer, Director",
+        "location": "San Francisco, CA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Hoa%20Mai%20Feather%20Robotics%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Parsa Bakhtiari",
+        "role": "Executive Officer, Director",
+        "location": "San Francisco, CA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Parsa%20Bakhtiari%20Feather%20Robotics%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Vincente Mai",
+        "role": "Director",
+        "location": "San Francisco, CA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Vincente%20Mai%20Feather%20Robotics%20Inc.",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Series A"
+  },
+  {
+    "name": "Project Edison 55 at Woodforest LLC",
+    "source": "delaware",
+    "source_id": "0002064564",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-13",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $10,418,000 raised (Series A).",
+    "raw": {
+      "cik": "0002064564",
+      "accession": "0002064564-26-000001:primary_doc.xml",
+      "file_date": "2026-04-13",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "TX"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002064564&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Residential",
+      "is_fund": false,
+      "offering_amount": 12200000,
+      "amount_sold": 10418000,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2064564/000206456426000001/primary_doc.xml",
+      "stage": "Series A"
+    },
+    "founders": [
+      {
+        "name": "Carolyn White",
+        "role": "Executive Officer",
+        "location": "Irving, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Carolyn%20White%20Project%20Edison%2055%20at%20Woodforest%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Mark Sepulveda",
+        "role": "Executive Officer",
+        "location": "Irving, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Mark%20Sepulveda%20Project%20Edison%2055%20at%20Woodforest%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Brett Magnuson",
+        "role": "Executive Officer",
+        "location": "Irving, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Brett%20Magnuson%20Project%20Edison%2055%20at%20Woodforest%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Naveen Balasubramanyam",
+        "role": "Executive Officer",
+        "location": "Irving, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Naveen%20Balasubramanyam%20Project%20Edison%2055%20at%20Woodforest%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Dawn Waye",
+        "role": "Executive Officer",
+        "location": "Irving, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Dawn%20Waye%20Project%20Edison%2055%20at%20Woodforest%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Bruce Bardgett",
+        "role": "Executive Officer",
+        "location": "Irving, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Bruce%20Bardgett%20Project%20Edison%2055%20at%20Woodforest%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Allison Singler",
+        "role": "Executive Officer",
+        "location": "Irving, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Allison%20Singler%20Project%20Edison%2055%20at%20Woodforest%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Jason Engelhorn",
+        "role": "Executive Officer",
+        "location": "Irving, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Jason%20Engelhorn%20Project%20Edison%2055%20at%20Woodforest%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Blayne White",
+        "role": "Executive Officer",
+        "location": "Irving, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Blayne%20White%20Project%20Edison%2055%20at%20Woodforest%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Gary Baumann",
+        "role": "Promoter",
+        "location": "Clifton, NJ",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Gary%20Baumann%20Project%20Edison%2055%20at%20Woodforest%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Michael Ambrosi",
+        "role": "Promoter",
+        "location": "Clifton, NJ",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Michael%20Ambrosi%20Project%20Edison%2055%20at%20Woodforest%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Jason Kessler",
+        "role": "Promoter",
+        "location": "Clifton, NJ",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Jason%20Kessler%20Project%20Edison%2055%20at%20Woodforest%20LLC",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Series A"
+  },
+  {
+    "name": "Apricity Robotics Inc.",
+    "source": "delaware",
+    "source_id": "0002021333",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-09",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $5,459,979 raised (Seed).",
+    "raw": {
+      "cik": "0002021333",
+      "accession": "0002021333-26-000002:primary_doc.xml",
+      "file_date": "2026-04-09",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "OH"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002021333&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Health Care",
+      "is_fund": false,
+      "offering_amount": null,
+      "amount_sold": 5459979,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2021333/000202133326000002/primary_doc.xml",
+      "stage": "Seed"
+    },
+    "founders": [
+      {
+        "name": "Aaron Crookes",
+        "role": "Executive Officer, Director",
+        "location": "Dublin, OH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Aaron%20Crookes%20Apricity%20Robotics%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Jeffrey Toaddy",
+        "role": "Executive Officer, Director",
+        "location": "Dublin, OH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Jeffrey%20Toaddy%20Apricity%20Robotics%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Joe Williams",
+        "role": "Director",
+        "location": "Dublin, OH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Joe%20Williams%20Apricity%20Robotics%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Hardik Desai",
+        "role": "Director",
+        "location": "Dublin, OH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Hardik%20Desai%20Apricity%20Robotics%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Bill Gaussa",
+        "role": "Director",
+        "location": "Dublin, OH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Bill%20Gaussa%20Apricity%20Robotics%20Inc.",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Seed"
+  },
+  {
+    "name": "Venus Concept Inc.  (VERO)",
+    "source": "delaware",
+    "source_id": "0001409269",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-09",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $1,500,000 raised (Pre-seed).",
+    "raw": {
+      "cik": "0001409269",
+      "accession": "0000912282-26-000569:primary_doc.xml",
+      "file_date": "2026-04-09",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001409269&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Health Care",
+      "is_fund": false,
+      "offering_amount": 1500000,
+      "amount_sold": 1500000,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1409269/000091228226000569/primary_doc.xml",
+      "stage": "Pre-seed"
+    },
+    "founders": [
+      {
+        "name": "Avinash Amin",
+        "role": "Director",
+        "location": "Toronto, A6",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Avinash%20Amin%20Venus%20Concept%20Inc.%20%20%28VERO%29",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Rajiv De Silva",
+        "role": "Executive Officer",
+        "location": "Toronto, A6",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Rajiv%20De%20Silva%20Venus%20Concept%20Inc.%20%20%28VERO%29",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Dominic Della Penna",
+        "role": "Executive Officer",
+        "location": "Toronto, A6",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Dominic%20Della%20Penna%20Venus%20Concept%20Inc.%20%20%28VERO%29",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Anna Georgiadis",
+        "role": "Executive Officer",
+        "location": "Toronto, A6",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Anna%20Georgiadis%20Venus%20Concept%20Inc.%20%20%28VERO%29",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Ross Portaro",
+        "role": "Executive Officer",
+        "location": "Toronto, A6",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Ross%20Portaro%20Venus%20Concept%20Inc.%20%20%28VERO%29",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Michael Mandarello",
+        "role": "Executive Officer",
+        "location": "Toronto, A6",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Michael%20Mandarello%20Venus%20Concept%20Inc.%20%20%28VERO%29",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Melissa Kang",
+        "role": "Executive Officer",
+        "location": "Toronto, A6",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Melissa%20Kang%20Venus%20Concept%20Inc.%20%20%28VERO%29",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Kirk Gunhus",
+        "role": "Executive Officer",
+        "location": "Toronto, A6",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Kirk%20Gunhus%20Venus%20Concept%20Inc.%20%20%28VERO%29",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Pre-seed"
+  },
+  {
+    "name": "NexPoint Oasis DST",
+    "source": "delaware",
+    "source_id": "0002098911",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-07",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $21,263,142 raised (Series B).",
+    "raw": {
+      "cik": "0002098911",
+      "accession": "0002098911-26-000007:primary_doc.xml",
+      "file_date": "2026-04-07",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "TX"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002098911&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Real Estate",
+      "is_fund": false,
+      "offering_amount": 46331389,
+      "amount_sold": 21263142,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2098911/000209891126000007/primary_doc.xml",
+      "stage": "Series B"
+    },
+    "founders": [
+      {
+        "name": "Paul Richards",
+        "role": "Executive Officer",
+        "location": "Dallas, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Paul%20Richards%20NexPoint%20Oasis%20DST",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Matt McGraner",
+        "role": "Executive Officer",
+        "location": "Dallas, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Matt%20McGraner%20NexPoint%20Oasis%20DST",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Series B"
+  },
+  {
+    "name": "Rendezvous Robotics, Inc.",
+    "source": "delaware",
+    "source_id": "0002114701",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-04-02",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $5,197,500 raised (Seed).",
+    "raw": {
+      "cik": "0002114701",
+      "accession": "0002114701-26-000001:primary_doc.xml",
+      "file_date": "2026-04-02",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "CO"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002114701&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Technology",
+      "is_fund": false,
+      "offering_amount": 5197500,
+      "amount_sold": 5197500,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2114701/000211470126000001/primary_doc.xml",
+      "stage": "Seed"
+    },
+    "founders": [
+      {
+        "name": "Philip Frank",
+        "role": "Executive Officer, Director",
+        "location": "Golden, CO",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Philip%20Frank%20Rendezvous%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Ariel Ekblaw",
+        "role": "Director",
+        "location": "Golden, CO",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Ariel%20Ekblaw%20Rendezvous%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Joseph Landon",
+        "role": "Executive Officer, Director",
+        "location": "Golden, CO",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Joseph%20Landon%20Rendezvous%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Noah Eckhouse",
+        "role": "Director",
+        "location": "Golden, CO",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Noah%20Eckhouse%20Rendezvous%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Patrick Zeitouni",
+        "role": "Director",
+        "location": "Golden, CO",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Patrick%20Zeitouni%20Rendezvous%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Seed"
+  },
+  {
+    "name": "RISE Robotics I, a series of Capitalize Investments LLC",
+    "source": "delaware",
+    "source_id": "0002126049",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-31",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $505,426 raised (Pre-seed).",
+    "raw": {
+      "cik": "0002126049",
+      "accession": "0002126049-26-000001:primary_doc.xml",
+      "file_date": "2026-03-31",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NV"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002126049&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other",
+      "is_fund": false,
+      "offering_amount": null,
+      "amount_sold": 505426,
+      "revenue_range": "Not Applicable",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2126049/000212604926000001/primary_doc.xml",
+      "stage": "Pre-seed"
+    },
+    "founders": [
+      {
+        "name": "Nicholas Tommarello",
+        "role": "Promoter",
+        "location": "Gun Barrel City, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Nicholas%20Tommarello%20RISE%20Robotics%20I%2C%20a%20series%20of%20Capitalize%20Investments%20LLC",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Pre-seed"
+  },
+  {
+    "name": "PG Manchester Industrial DST",
+    "source": "delaware",
+    "source_id": "0002105549",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-30",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $28,113,527 raised (Series B).",
+    "raw": {
+      "cik": "0002105549",
+      "accession": "0002105549-26-000002:primary_doc.xml",
+      "file_date": "2026-03-30",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "GA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002105549&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Real Estate",
+      "is_fund": false,
+      "offering_amount": 28113527,
+      "amount_sold": 28113527,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2105549/000210554926000002/primary_doc.xml",
+      "stage": "Series B"
+    },
+    "founders": [],
+    "stage": "Series B"
+  },
+  {
+    "name": "PG Omaha Landmark DST",
+    "source": "delaware",
+    "source_id": "0002103944",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-30",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $27,556,871 raised (Series B).",
+    "raw": {
+      "cik": "0002103944",
+      "accession": "0002103944-26-000002:primary_doc.xml",
+      "file_date": "2026-03-30",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "GA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002103944&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Real Estate",
+      "is_fund": false,
+      "offering_amount": 27556871,
+      "amount_sold": 27556871,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2103944/000210394426000002/primary_doc.xml",
+      "stage": "Series B"
+    },
+    "founders": [],
+    "stage": "Series B"
+  },
+  {
+    "name": "Keda Robotics, Inc.",
+    "source": "delaware",
+    "source_id": "0002125382",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-27",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $3,999,999 raised (Seed).",
+    "raw": {
+      "cik": "0002125382",
+      "accession": "0002125382-26-000001:primary_doc.xml",
+      "file_date": "2026-03-27",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002125382&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Technology",
+      "is_fund": false,
+      "offering_amount": 9999999,
+      "amount_sold": 3999999,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2125382/000212538226000001/primary_doc.xml",
+      "stage": "Seed"
+    },
+    "founders": [
+      {
+        "name": "Jonathan Brennan-Badal",
+        "role": "Executive Officer, Director",
+        "location": "Brooklyn, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Jonathan%20Brennan-Badal%20Keda%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Will Canine",
+        "role": "Executive Officer, Director",
+        "location": "Brooklyn, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Will%20Canine%20Keda%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Yunho Kim",
+        "role": "Director",
+        "location": "Brooklyn, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Yunho%20Kim%20Keda%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Seed"
+  },
+  {
+    "name": "Evolved Robotics, Inc.",
+    "source": "delaware",
+    "source_id": "0002113387",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-20",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $325,000 raised (Pre-seed).",
+    "raw": {
+      "cik": "0002113387",
+      "accession": "0002113387-26-000001:primary_doc.xml",
+      "file_date": "2026-03-20",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "WA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002113387&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Technology",
+      "is_fund": false,
+      "offering_amount": 1000000,
+      "amount_sold": 325000,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2113387/000211338726000001/primary_doc.xml",
+      "stage": "Pre-seed"
+    },
+    "founders": [
+      {
+        "name": "Matthew Skeels",
+        "role": "Executive Officer, Director, Promoter",
+        "location": "Camano Island, WA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Matthew%20Skeels%20Evolved%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Gur Kimchi",
+        "role": "Director",
+        "location": "Camano Island, WA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Gur%20Kimchi%20Evolved%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Kaveh Goudarzian",
+        "role": "Director",
+        "location": "Camano Island, WA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Kaveh%20Goudarzian%20Evolved%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Pre-seed"
+  },
+  {
+    "name": "Inland Jersey City Multifamily DST",
+    "source": "delaware",
+    "source_id": "0002086180",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-20",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $71,744,372 raised (Series B).",
+    "raw": {
+      "cik": "0002086180",
+      "accession": "0002086180-26-000001:primary_doc.xml",
+      "file_date": "2026-03-20",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "IL"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002086180&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Real Estate",
+      "is_fund": false,
+      "offering_amount": 71744372,
+      "amount_sold": 71744372,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2086180/000208618026000001/primary_doc.xml",
+      "stage": "Series B"
+    },
+    "founders": [
+      {
+        "name": "Matthew Fries",
+        "role": "Executive Officer",
+        "location": "Oak Brook, IL",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Matthew%20Fries%20Inland%20Jersey%20City%20Multifamily%20DST",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Series B"
+  },
+  {
+    "name": "Integris AI Healthcare Group, Inc.",
+    "source": "delaware",
+    "source_id": "0001001988",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-17",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $1,000,000,000 offering (Growth).",
+    "raw": {
+      "cik": "0001001988",
+      "accession": "0001001988-26-000004:primary_doc.xml",
+      "file_date": "2026-03-17",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "DC"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001001988&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Health Care",
+      "is_fund": false,
+      "offering_amount": 1000000000,
+      "amount_sold": 0,
+      "revenue_range": "No Revenues",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1001988/000100198826000004/primary_doc.xml",
+      "stage": "Growth"
+    },
+    "founders": [
+      {
+        "name": "Anthony Ramos",
+        "role": "Promoter",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Anthony%20Ramos%20Integris%20AI%20Healthcare%20Group%2C%20Inc.",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Growth"
+  },
+  {
+    "name": "MDS 2025-Shale Development, LP",
+    "source": "delaware",
+    "source_id": "0002059990",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-17",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $246,314,916 raised (Growth).",
+    "raw": {
+      "cik": "0002059990",
+      "accession": "0002059990-26-000002:primary_doc.xml",
+      "file_date": "2026-03-17",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "PA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002059990&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Oil and Gas",
+      "is_fund": false,
+      "offering_amount": 300000000,
+      "amount_sold": 246314916,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2059990/000205999026000002/primary_doc.xml",
+      "stage": "Growth"
+    },
+    "founders": [
+      {
+        "name": "Michael Snyder",
+        "role": "Executive Officer, Promoter",
+        "location": "Pittsburgh, PA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Michael%20Snyder%20MDS%202025-Shale%20Development%2C%20LP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Randall Morris",
+        "role": "Executive Officer",
+        "location": "Pittsburgh, PA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Randall%20Morris%20MDS%202025-Shale%20Development%2C%20LP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Michael Knapp",
+        "role": "Executive Officer",
+        "location": "Pittsburgh, PA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Michael%20Knapp%20MDS%202025-Shale%20Development%2C%20LP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Richard Saadeh",
+        "role": "Executive Officer",
+        "location": "Pittsburgh, PA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Richard%20Saadeh%20MDS%202025-Shale%20Development%2C%20LP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Woody Soemantoro",
+        "role": "Executive Officer",
+        "location": "Pittsburgh, PA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Woody%20Soemantoro%20MDS%202025-Shale%20Development%2C%20LP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Zachary Avi",
+        "role": "Executive Officer",
+        "location": "Pittsburgh, PA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Zachary%20Avi%20MDS%202025-Shale%20Development%2C%20LP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Heather Rogerson",
+        "role": "Executive Officer",
+        "location": "Pittsburgh, PA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Heather%20Rogerson%20MDS%202025-Shale%20Development%2C%20LP",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Growth"
+  },
+  {
+    "name": "NEW YORK LIFE INSURANCE & ANNUITY CORP",
+    "source": "delaware",
+    "source_id": "0000727136",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-11",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $545,593,981 raised (Growth).",
+    "raw": {
+      "cik": "0000727136",
+      "accession": "0000727136-26-000005:primary_doc.xml",
+      "file_date": "2026-03-11",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000727136&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Insurance",
+      "is_fund": false,
+      "offering_amount": null,
+      "amount_sold": 545593981,
+      "revenue_range": "Over $100,000,000",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/727136/000072713626000005/primary_doc.xml",
+      "stage": "Growth"
+    },
+    "founders": [
+      {
+        "name": "Jodi Kravitz",
+        "role": "Director",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Jodi%20Kravitz%20NEW%20YORK%20LIFE%20INSURANCE%20%26%20ANNUITY%20CORP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Thomas Hendry",
+        "role": "Executive Officer, Director",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Thomas%20Hendry%20NEW%20YORK%20LIFE%20INSURANCE%20%26%20ANNUITY%20CORP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Amy Miller",
+        "role": "Director",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Amy%20Miller%20NEW%20YORK%20LIFE%20INSURANCE%20%26%20ANNUITY%20CORP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Michael McDonnell",
+        "role": "Executive Officer, Director",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Michael%20McDonnell%20NEW%20YORK%20LIFE%20INSURANCE%20%26%20ANNUITY%20CORP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Eric Feldstein",
+        "role": "Executive Officer, Director",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Eric%20Feldstein%20NEW%20YORK%20LIFE%20INSURANCE%20%26%20ANNUITY%20CORP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Janis Rubin",
+        "role": "Executive Officer",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Janis%20Rubin%20NEW%20YORK%20LIFE%20INSURANCE%20%26%20ANNUITY%20CORP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Colleen Meade",
+        "role": "Executive Officer",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Colleen%20Meade%20NEW%20YORK%20LIFE%20INSURANCE%20%26%20ANNUITY%20CORP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Craig DeSanto",
+        "role": "Executive Officer, Director",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Craig%20DeSanto%20NEW%20YORK%20LIFE%20INSURANCE%20%26%20ANNUITY%20CORP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Michael Gamble",
+        "role": "Executive Officer",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Michael%20Gamble%20NEW%20YORK%20LIFE%20INSURANCE%20%26%20ANNUITY%20CORP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Erik Anderson",
+        "role": "Executive Officer, Director",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Erik%20Anderson%20NEW%20YORK%20LIFE%20INSURANCE%20%26%20ANNUITY%20CORP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Craig Sabal",
+        "role": "Director",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Craig%20Sabal%20NEW%20YORK%20LIFE%20INSURANCE%20%26%20ANNUITY%20CORP",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Growth"
+  },
+  {
+    "name": "BREX Briggs MF DST",
+    "source": "delaware",
+    "source_id": "0002083653",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-09",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $77,592,879 raised (Growth).",
+    "raw": {
+      "cik": "0002083653",
+      "accession": "0002083653-26-000002:primary_doc.xml",
+      "file_date": "2026-03-09",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002083653&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Real Estate",
+      "is_fund": false,
+      "offering_amount": 79916131,
+      "amount_sold": 77592879,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2083653/000208365326000002/primary_doc.xml",
+      "stage": "Growth"
+    },
+    "founders": [
+      {
+        "name": "Brian Kingston",
+        "role": "Executive Officer",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Brian%20Kingston%20BREX%20Briggs%20MF%20DST",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Dana Petitto",
+        "role": "Executive Officer",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Dana%20Petitto%20BREX%20Briggs%20MF%20DST",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Theodore Hanno",
+        "role": "Executive Officer",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Theodore%20Hanno%20BREX%20Briggs%20MF%20DST",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Melissa Lang",
+        "role": "Executive Officer",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Melissa%20Lang%20BREX%20Briggs%20MF%20DST",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Michelle Campbell",
+        "role": "Executive Officer",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Michelle%20Campbell%20BREX%20Briggs%20MF%20DST",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Sara Beugelmans",
+        "role": "Executive Officer",
+        "location": "New York, NY",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Sara%20Beugelmans%20BREX%20Briggs%20MF%20DST",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Growth"
+  },
+  {
+    "name": "Wheaton Multifamily DST",
+    "source": "delaware",
+    "source_id": "0002047612",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-09",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $120,518,506 raised (Growth).",
+    "raw": {
+      "cik": "0002047612",
+      "accession": "0002047612-26-000001:primary_doc.xml",
+      "file_date": "2026-03-09",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "IL"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002047612&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Real Estate",
+      "is_fund": false,
+      "offering_amount": 120518506,
+      "amount_sold": 120518506,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2047612/000204761226000001/primary_doc.xml",
+      "stage": "Growth"
+    },
+    "founders": [
+      {
+        "name": "Keith Lampi",
+        "role": "Executive Officer",
+        "location": "Oak Brook, IL",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Keith%20Lampi%20Wheaton%20Multifamily%20DST",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Growth"
+  },
+  {
+    "name": "Inland Oklahoma Student Housing DST",
+    "source": "delaware",
+    "source_id": "0002087972",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-09",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $77,577,344 raised (Growth).",
+    "raw": {
+      "cik": "0002087972",
+      "accession": "0002087972-26-000002:primary_doc.xml",
+      "file_date": "2026-03-09",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "IL"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002087972&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Real Estate",
+      "is_fund": false,
+      "offering_amount": 83854192,
+      "amount_sold": 77577344,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2087972/000208797226000002/primary_doc.xml",
+      "stage": "Growth"
+    },
+    "founders": [
+      {
+        "name": "Matthew Fries",
+        "role": "Executive Officer",
+        "location": "Oak Brook, IL",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Matthew%20Fries%20Inland%20Oklahoma%20Student%20Housing%20DST",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Growth"
+  },
+  {
+    "name": "DTW Air Cargo Logistics DST",
+    "source": "delaware",
+    "source_id": "0002051341",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-06",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $480,177,232 raised (Growth).",
+    "raw": {
+      "cik": "0002051341",
+      "accession": "0000932440-26-000016:primary_doc.xml",
+      "file_date": "2026-03-06",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NH"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002051341&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Real Estate",
+      "is_fund": false,
+      "offering_amount": 480177232,
+      "amount_sold": 480177232,
+      "revenue_range": "Not Applicable",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2051341/000093244026000016/primary_doc.xml",
+      "stage": "Growth"
+    },
+    "founders": [
+      {
+        "name": "Douglas Blough",
+        "role": "Executive Officer",
+        "location": "Nashua, NH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Douglas%20Blough%20DTW%20Air%20Cargo%20Logistics%20DST",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Bruce MacDonald",
+        "role": "Executive Officer",
+        "location": "Nashua, NH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Bruce%20MacDonald%20DTW%20Air%20Cargo%20Logistics%20DST",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Growth"
+  },
+  {
+    "name": "NLC Health Investors DST",
+    "source": "delaware",
+    "source_id": "0002085986",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-06",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $145,239,705 raised (Growth).",
+    "raw": {
+      "cik": "0002085986",
+      "accession": "0000932440-26-000018:primary_doc.xml",
+      "file_date": "2026-03-06",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NH"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002085986&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Real Estate",
+      "is_fund": false,
+      "offering_amount": 145476941,
+      "amount_sold": 145239705,
+      "revenue_range": "Not Applicable",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2085986/000093244026000018/primary_doc.xml",
+      "stage": "Growth"
+    },
+    "founders": [
+      {
+        "name": "Douglas Blough",
+        "role": "Executive Officer",
+        "location": "Nashua, NH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Douglas%20Blough%20NLC%20Health%20Investors%20DST",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Bruce MacDonald",
+        "role": "Executive Officer",
+        "location": "Nashua, NH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Bruce%20MacDonald%20NLC%20Health%20Investors%20DST",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Growth"
+  },
+  {
+    "name": "RGP Income Fund II, LP",
+    "source": "delaware",
+    "source_id": "0002063453",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-03",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $92,488,140 raised (Growth).",
+    "raw": {
+      "cik": "0002063453",
+      "accession": "0002063453-26-000003:primary_doc.xml",
+      "file_date": "2026-03-03",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "TX"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002063453&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Oil and Gas",
+      "is_fund": false,
+      "offering_amount": 125000000,
+      "amount_sold": 92488140,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2063453/000206345326000003/primary_doc.xml",
+      "stage": "Growth"
+    },
+    "founders": [
+      {
+        "name": "Phillip Willis",
+        "role": "Executive Officer, Promoter",
+        "location": "Dallas, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Phillip%20Willis%20RGP%20Income%20Fund%20II%2C%20LP",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Brandi Van Loon",
+        "role": "Executive Officer, Promoter",
+        "location": "Dallas, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Brandi%20Van%20Loon%20RGP%20Income%20Fund%20II%2C%20LP",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Growth"
+  },
+  {
+    "name": "McQueen Labs Inc.",
+    "source": "delaware",
+    "source_id": "0002004478",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-03",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $5,325,000 raised (Seed).",
+    "raw": {
+      "cik": "0002004478",
+      "accession": "0001213900-26-022782:primary_doc.xml",
+      "file_date": "2026-03-03",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "FL"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002004478&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Banking and Financial Services",
+      "is_fund": false,
+      "offering_amount": 8000000,
+      "amount_sold": 5325000,
+      "revenue_range": "$1 - $1,000,000",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2004478/000121390026022782/primary_doc.xml",
+      "stage": "Seed"
+    },
+    "founders": [
+      {
+        "name": "Curtis Hopkins",
+        "role": "Executive Officer, Director",
+        "location": "Miami, FL",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Curtis%20Hopkins%20McQueen%20Labs%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Douglas Durst",
+        "role": "Executive Officer",
+        "location": "Miami, FL",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Douglas%20Durst%20McQueen%20Labs%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Benan Tumkaya",
+        "role": "Executive Officer",
+        "location": "Miami, FL",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Benan%20Tumkaya%20McQueen%20Labs%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Jason Musante",
+        "role": "Executive Officer",
+        "location": "Miami, FL",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Jason%20Musante%20McQueen%20Labs%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Lachlan DeFrancesco",
+        "role": "Executive Officer, Director",
+        "location": "Miami, FL",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Lachlan%20DeFrancesco%20McQueen%20Labs%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Paul Glavine",
+        "role": "Director",
+        "location": "Miami, FL",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Paul%20Glavine%20McQueen%20Labs%20Inc.",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Seed"
+  },
+  {
+    "name": "NexPoint Lodging I DST",
+    "source": "delaware",
+    "source_id": "0002073566",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-03-02",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $27,934,800 raised (Series B).",
+    "raw": {
+      "cik": "0002073566",
+      "accession": "0002073566-26-000001:primary_doc.xml",
+      "file_date": "2026-03-02",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "TX"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002073566&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Commercial",
+      "is_fund": false,
+      "offering_amount": 27934800,
+      "amount_sold": 27934800,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2073566/000207356626000001/primary_doc.xml",
+      "stage": "Series B"
+    },
+    "founders": [
+      {
+        "name": "Matthew McGraner",
+        "role": "Executive Officer",
+        "location": "Dallas, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Matthew%20McGraner%20NexPoint%20Lodging%20I%20DST",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Paul Richards",
+        "role": "Executive Officer",
+        "location": "Dallas, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Paul%20Richards%20NexPoint%20Lodging%20I%20DST",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Series B"
+  },
+  {
+    "name": "Griffin Capital (Union - Kansas City, MO) DST",
+    "source": "delaware",
+    "source_id": "0002104228",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-27",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $16,141,528 raised (Series A).",
+    "raw": {
+      "cik": "0002104228",
+      "accession": "0002104228-26-000003:primary_doc.xml",
+      "file_date": "2026-02-27",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "CA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002104228&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Real Estate",
+      "is_fund": false,
+      "offering_amount": 59873419,
+      "amount_sold": 16141528,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2104228/000210422826000003/primary_doc.xml",
+      "stage": "Series A"
+    },
+    "founders": [
+      {
+        "name": "Kevin Shields",
+        "role": "Executive Officer",
+        "location": "El Segundo, CA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Kevin%20Shields%20Griffin%20Capital%20%28Union%20-%20Kansas%20City%2C%20MO%29%20DST",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Nick Rosenthal",
+        "role": "Executive Officer",
+        "location": "El Segundo, CA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Nick%20Rosenthal%20Griffin%20Capital%20%28Union%20-%20Kansas%20City%2C%20MO%29%20DST",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Series A"
+  },
+  {
+    "name": "Xperience Robotics, Inc.",
+    "source": "delaware",
+    "source_id": "0001960719",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-24",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $5,000,000 offering (Seed).",
+    "raw": {
+      "cik": "0001960719",
+      "accession": "0001960719-26-000002:primary_doc.xml",
+      "file_date": "2026-02-24",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "OH"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001960719&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Health Care",
+      "is_fund": false,
+      "offering_amount": 5000000,
+      "amount_sold": 0,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/1960719/000196071926000002/primary_doc.xml",
+      "stage": "Seed"
+    },
+    "founders": [
+      {
+        "name": "Ankit Shah",
+        "role": "Executive Officer, Director",
+        "location": "Cuyahoga Falls, OH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Ankit%20Shah%20Xperience%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Kenneth Krakaur",
+        "role": "Executive Officer, Director",
+        "location": "Cuyahoga Falls, OH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Kenneth%20Krakaur%20Xperience%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Rob Heiser",
+        "role": "Executive Officer, Director",
+        "location": "Cuyahoga Falls, OH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Rob%20Heiser%20Xperience%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Joe Harrow",
+        "role": "Director",
+        "location": "Cuyahoga Falls, OH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Joe%20Harrow%20Xperience%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Bruce Lehrman",
+        "role": "Director",
+        "location": "Cuyahoga Falls, OH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Bruce%20Lehrman%20Xperience%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "David Lennarz",
+        "role": "Director",
+        "location": "Cuyahoga Falls, OH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=David%20Lennarz%20Xperience%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Mike Haritakis",
+        "role": "Executive Officer",
+        "location": "Cuyahoga Falls, OH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Mike%20Haritakis%20Xperience%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Randy Myeroff",
+        "role": "Director",
+        "location": "Cuyahoga Falls, OH",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Randy%20Myeroff%20Xperience%20Robotics%2C%20Inc.",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Seed"
+  },
+  {
+    "name": "Pontux Inc.",
+    "source": "delaware",
+    "source_id": "0002111935",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-18",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $83,300 raised (Pre-seed).",
+    "raw": {
+      "cik": "0002111935",
+      "accession": "0002111935-26-000001:primary_doc.xml",
+      "file_date": "2026-02-18",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002111935&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Technology",
+      "is_fund": false,
+      "offering_amount": null,
+      "amount_sold": 83300,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2111935/000211193526000001/primary_doc.xml",
+      "stage": "Pre-seed"
+    },
+    "founders": [
+      {
+        "name": "Ivan Milev",
+        "role": "Executive Officer",
+        "location": "Zurich, V8",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Ivan%20Milev%20Pontux%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Alexander Bridgwater",
+        "role": "Director",
+        "location": "Zurich, V8",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Alexander%20Bridgwater%20Pontux%20Inc.",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Svilen Stefanov",
+        "role": "Director",
+        "location": "Schaffhausen, V8",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Svilen%20Stefanov%20Pontux%20Inc.",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Pre-seed"
+  },
+  {
+    "name": "INVEXT VERDANT ROBOTICS A SERIES OF INVEXT LLC",
+    "source": "delaware",
+    "source_id": "0002069596",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-18",
+    "description": "Form D filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $221,177 raised (Pre-seed).",
+    "raw": {
+      "cik": "0002069596",
+      "accession": "0002069596-26-000004:primary_doc.xml",
+      "file_date": "2026-02-18",
+      "file_type": "D",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "CA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002069596&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other",
+      "is_fund": false,
+      "offering_amount": 221177,
+      "amount_sold": 221177,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2069596/000206959626000004/primary_doc.xml",
+      "stage": "Pre-seed"
+    },
+    "founders": [
+      {
+        "name": "Melissa Garlough",
+        "role": "Executive Officer",
+        "location": "Austin, TX",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Melissa%20Garlough%20INVEXT%20VERDANT%20ROBOTICS%20A%20SERIES%20OF%20INVEXT%20LLC",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Supachai Parchariyanon",
+        "role": "Executive Officer",
+        "location": "Millbrae, CA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Supachai%20Parchariyanon%20INVEXT%20VERDANT%20ROBOTICS%20A%20SERIES%20OF%20INVEXT%20LLC",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Pre-seed"
+  },
+  {
+    "name": "CF Chestnut Street Multifamily DST",
+    "source": "delaware",
+    "source_id": "0002067951",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-13",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $82,320,000 raised (Growth).",
+    "raw": {
+      "cik": "0002067951",
+      "accession": "0002067951-26-000001:primary_doc.xml",
+      "file_date": "2026-02-13",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "NY"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067951&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Residential",
+      "is_fund": false,
+      "offering_amount": 82320000,
+      "amount_sold": 82320000,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2067951/000206795126000001/primary_doc.xml",
+      "stage": "Growth"
+    },
+    "founders": [],
+    "stage": "Growth"
+  },
+  {
+    "name": "Griffin Capital (Heritage - Gonzales, LA) DST",
+    "source": "delaware",
+    "source_id": "0002074085",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-06",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $36,582,058 raised (Series B).",
+    "raw": {
+      "cik": "0002074085",
+      "accession": "0002074085-26-000001:primary_doc.xml",
+      "file_date": "2026-02-06",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "CA"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002074085&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Real Estate",
+      "is_fund": false,
+      "offering_amount": 37129367,
+      "amount_sold": 36582058,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2074085/000207408526000001/primary_doc.xml",
+      "stage": "Series B"
+    },
+    "founders": [
+      {
+        "name": "Kevin Shields",
+        "role": "Executive Officer",
+        "location": "El Segundo, CA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Kevin%20Shields%20Griffin%20Capital%20%28Heritage%20-%20Gonzales%2C%20LA%29%20DST",
+        "source": "sec_filing"
+      },
+      {
+        "name": "Nick Rosenthal",
+        "role": "Executive Officer",
+        "location": "El Segundo, CA",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Nick%20Rosenthal%20Griffin%20Capital%20%28Heritage%20-%20Gonzales%2C%20LA%29%20DST",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Series B"
+  },
+  {
+    "name": "ALT Student Housing DST",
+    "source": "delaware",
+    "source_id": "0002029321",
+    "jurisdiction": "Delaware, USA",
+    "formation_date": "2026-02-05",
+    "description": "Form D/A filer on SEC EDGAR incorporated in Delaware (new exempt securities offering). Form D reports $77,202,071 raised (Growth).",
+    "raw": {
+      "cik": "0002029321",
+      "accession": "0002029321-26-000005:primary_doc.xml",
+      "file_date": "2026-02-05",
+      "file_type": "D/A",
+      "inc_states": [
+        "DE"
+      ],
+      "biz_states": [
+        "IL"
+      ],
+      "edgar_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002029321&type=D",
+      "registry": "SEC EDGAR",
+      "industry_group": "Other Real Estate",
+      "is_fund": false,
+      "offering_amount": 77202071,
+      "amount_sold": 77202071,
+      "revenue_range": "",
+      "filing_url": "https://www.sec.gov/Archives/edgar/data/2029321/000202932126000005/primary_doc.xml",
+      "stage": "Growth"
+    },
+    "founders": [
+      {
+        "name": "Ella Neyland",
+        "role": "Executive Officer",
+        "location": "Oak Brook, IL",
+        "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Ella%20Neyland%20ALT%20Student%20Housing%20DST",
+        "source": "sec_filing"
+      }
+    ],
+    "stage": "Growth"
   }
 ]

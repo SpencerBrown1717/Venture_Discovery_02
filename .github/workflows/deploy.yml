@@ -31,21 +31,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Refresh Delaware sample (real DE incorporations via SEC EDGAR)
-        run: python -m scout gen-sample --max-age-days 45 --limit 80
+      - name: Refresh sample — real DE incorporations + Form D enrichment
+        # Pulls operating companies incorporated in DE from SEC EDGAR, drops
+        # pooled funds, and enriches each with real officers, stage, and capital.
+        run: python -m scout gen-sample --max-age-days 120 --limit 40
 
-      - name: Run Venture Analyst Swarm on Delaware sample
+      - name: Run Venture Analyst Swarm on the enriched sample
         run: python -m scout run --source sample --research --no-fetch-site --export
-
-      - name: Enrich with live SEC EDGAR Form D filings (best-effort)
-        continue-on-error: true
-        run: |
-          python -m scout run \
-            --source delaware \
-            --query '"artificial intelligence" OR "machine learning" OR robotics OR autonomous' \
-            --days-back 120 --limit 40 \
-            --user-agent "AI-Incorporation-Scout (github-actions; contact: scout@example.com)" \
-            --research --export
 
       - name: Commit refreshed dataset (keeps repo data current)
         continue-on-error: true

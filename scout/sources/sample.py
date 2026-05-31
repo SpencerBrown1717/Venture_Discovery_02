@@ -38,5 +38,6 @@ class SampleSource(Source):
                 formation_date=rec.get("formation_date"),
                 website=rec.get("website"),
                 description=rec.get("description", ""),
+                founders=rec.get("founders", []),  # real officers from Form D
                 raw=rec.get("raw", rec),
             )
